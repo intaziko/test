@@ -1,0 +1,2360 @@
+[
+ {
+  "id": "est_4_33",
+  "gtfs": "BANCO DE ESPAÑA",
+  "nombre": "Banco de España",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_11",
+  "gtfs": "GRAN VIA",
+  "nombre": "Gran Vía",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_83",
+  "gtfs": "NUÑEZ DE BALBOA",
+  "nombre": "Núñez de Balboa",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_90_21",
+  "gtfs": "PLAZA DE CASTILLA",
+  "nombre": "Plaza de Castilla",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_286",
+  "gtfs": "ESTADIO METROPOLITANO",
+  "nombre": "Estadio Metropolitano",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_119",
+  "gtfs": "REPUBLICA ARGENTINA",
+  "nombre": "República Argentina",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_262",
+  "gtfs": "BAMBU",
+  "nombre": "Bambú",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_90_36",
+  "gtfs": "PLAZA ELIPTICA",
+  "nombre": "Plaza Elíptica",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_91",
+  "gtfs": "PUERTA DE TOLEDO",
+  "nombre": "Puerta de Toledo",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_37",
+  "gtfs": "SANTO DOMINGO",
+  "nombre": "Santo Domingo",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_67",
+  "gtfs": "AVENIDA DE LA PAZ",
+  "nombre": "Avenida de la Paz",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_50",
+  "gtfs": "PLAZA DE ESPAÑA",
+  "nombre": "Plaza de España",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_27",
+  "gtfs": "CONGOSTO",
+  "nombre": "Congosto",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_173",
+  "gtfs": "IBIZA",
+  "nombre": "Ibiza",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_136",
+  "gtfs": "ASCAO",
+  "nombre": "Ascao",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_68",
+  "gtfs": "ARTURO SORIA",
+  "nombre": "Arturo Soria",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_296",
+  "gtfs": "HOSPITAL DEL HENARES",
+  "nombre": "Hospital del Henares",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_29",
+  "gtfs": "MONTEPRINCIPE",
+  "nombre": "Montepríncipe",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_14",
+  "gtfs": "SOMOSAGUAS SUR",
+  "nombre": "Somosaguas Sur",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_22",
+  "gtfs": "BERNA",
+  "nombre": "Berna",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_8",
+  "gtfs": "PALAS DE REY",
+  "nombre": "Palas de Rey",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_21",
+  "gtfs": "AVENIDA DE EUROPA",
+  "nombre": "Avenida de Europa",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_10_7",
+  "gtfs": "MARIA TUDOR",
+  "nombre": "María Tudor",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "est_4_46",
+  "gtfs": "EMBAJADORES",
+  "nombre": "Embajadores",
+  "fuente": "crtm-acceso"
+ },
+ {
+  "id": "cer_60103",
+  "gtfs": "Pinto",
+  "nombre": "Pinto",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10204",
+  "gtfs": "Zarzalejo",
+  "nombre": "Zarzalejo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35601",
+  "gtfs": "Maestra Justa Freire-Polidep. Aluche",
+  "nombre": "Maestra Justa Freire-Polidep. Aluche",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35604",
+  "gtfs": "San José de Valderas",
+  "nombre": "San José de Valderas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12006",
+  "gtfs": "Cercedilla",
+  "nombre": "Cercedilla",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_37001",
+  "gtfs": "Madrid-Villaverde Alto",
+  "nombre": "Madrid-Villaverde Alto",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_37002",
+  "gtfs": "Getafe-Centro",
+  "nombre": "Getafe-Centro",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35001",
+  "gtfs": "Leganés",
+  "nombre": "Leganés",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10104",
+  "gtfs": "Galapagar-La Navata",
+  "nombre": "Galapagar-La Navata",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35012",
+  "gtfs": "Humanes",
+  "nombre": "Humanes",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70200",
+  "gtfs": "Guadalajara",
+  "nombre": "Guadalajara",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18002",
+  "gtfs": "Madrid-Nuevos Ministerios",
+  "nombre": "Madrid-Nuevos Ministerios",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10201",
+  "gtfs": "San Yago",
+  "nombre": "San Yago",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10206",
+  "gtfs": "Santa María de la Alameda-Peguerinos",
+  "nombre": "Santa María de la Alameda-Peguerinos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60104",
+  "gtfs": "Valdemoro",
+  "nombre": "Valdemoro",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17005",
+  "gtfs": "Colmenar Viejo",
+  "nombre": "Colmenar Viejo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10205",
+  "gtfs": "Robledo de Chavela",
+  "nombre": "Robledo de Chavela",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12004",
+  "gtfs": "Collado Mediano",
+  "nombre": "Collado Mediano",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_19003",
+  "gtfs": "Alcobendas-San Sebastián de los Reyes",
+  "nombre": "Alcobendas-San Sebastián de los Reyes",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70105",
+  "gtfs": "Azuqueca",
+  "nombre": "Azuqueca",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60200",
+  "gtfs": "Aranjuez",
+  "nombre": "Aranjuez",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17009",
+  "gtfs": "Universidad-Cantoblanco",
+  "nombre": "Universidad-Cantoblanco",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70108",
+  "gtfs": "Coslada",
+  "nombre": "Coslada",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18004",
+  "gtfs": "Delicias",
+  "nombre": "Delicias",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35610",
+  "gtfs": "Las Retamas",
+  "nombre": "Las Retamas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17003",
+  "gtfs": "El Goloso",
+  "nombre": "El Goloso",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10005",
+  "gtfs": "Las Rozas",
+  "nombre": "Las Rozas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10100",
+  "gtfs": "Pinar de las Rozas",
+  "nombre": "Pinar de las Rozas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10002",
+  "gtfs": "Pozuelo",
+  "nombre": "Pozuelo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35702",
+  "gtfs": "Doce de Octubre",
+  "nombre": "Doce de Octubre",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10001",
+  "gtfs": "Aravaca",
+  "nombre": "Aravaca",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10202",
+  "gtfs": "Las Zorreras-Navalquejigo",
+  "nombre": "Las Zorreras-Navalquejigo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35602",
+  "gtfs": "Las Águilas",
+  "nombre": "Las Águilas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70102",
+  "gtfs": "Torrejón de Ardoz",
+  "nombre": "Torrejón de Ardoz",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10010",
+  "gtfs": "El Barrial-Centro Comercial Pozuelo",
+  "nombre": "El Barrial-Centro Comercial Pozuelo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70003",
+  "gtfs": "El Pozo",
+  "nombre": "El Pozo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12023",
+  "gtfs": "Los Cotos",
+  "nombre": "Los Cotos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12002",
+  "gtfs": "Alpedrete",
+  "nombre": "Alpedrete",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35009",
+  "gtfs": "Zarzaquemada",
+  "nombre": "Zarzaquemada",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70002",
+  "gtfs": "Asamblea de Madrid-Entrevías",
+  "nombre": "Asamblea de Madrid-Entrevías",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35704",
+  "gtfs": "Puente Alcocer",
+  "nombre": "Puente Alcocer",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70100",
+  "gtfs": "Vicálvaro",
+  "nombre": "Vicálvaro",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_19001",
+  "gtfs": "Universidad Pontificia de Comillas",
+  "nombre": "Universidad Pontificia de Comillas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60107",
+  "gtfs": "San Cristóbal de los Ángeles",
+  "nombre": "San Cristóbal de los Ángeles",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35603",
+  "gtfs": "Cuatro Vientos",
+  "nombre": "Cuatro Vientos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35608",
+  "gtfs": "Laguna",
+  "nombre": "Laguna",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70104",
+  "gtfs": "Meco",
+  "nombre": "Meco",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60100",
+  "gtfs": "Madrid-Villaverde Bajo",
+  "nombre": "Madrid-Villaverde Bajo",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35703",
+  "gtfs": "Orcasitas",
+  "nombre": "Orcasitas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18005",
+  "gtfs": "Pirámides",
+  "nombre": "Pirámides",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35609",
+  "gtfs": "Embajadores",
+  "nombre": "Embajadores",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60102",
+  "gtfs": "Getafe-Industrial",
+  "nombre": "Getafe-Industrial",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10101",
+  "gtfs": "Las Matas",
+  "nombre": "Las Matas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18003",
+  "gtfs": "Méndez Álvaro P.V.",
+  "nombre": "Méndez Álvaro P.V.",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70001",
+  "gtfs": "Vallecas",
+  "nombre": "Vallecas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35600",
+  "gtfs": "Aluche",
+  "nombre": "Aluche",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10203",
+  "gtfs": "El Escorial",
+  "nombre": "El Escorial",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60101",
+  "gtfs": "San Cristóbal Industrial",
+  "nombre": "San Cristóbal Industrial",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10007",
+  "gtfs": "Majadahonda",
+  "nombre": "Majadahonda",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_37010",
+  "gtfs": "Las Margaritas",
+  "nombre": "Las Margaritas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35605",
+  "gtfs": "Alcorcón",
+  "nombre": "Alcorcón",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10103",
+  "gtfs": "Torrelodones",
+  "nombre": "Torrelodones",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60105",
+  "gtfs": "Ciempozuelos",
+  "nombre": "Ciempozuelos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35606",
+  "gtfs": "Móstoles",
+  "nombre": "Móstoles",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12001",
+  "gtfs": "Los Negrales",
+  "nombre": "Los Negrales",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70112",
+  "gtfs": "Soto del Henares",
+  "nombre": "Soto del Henares",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_97100",
+  "gtfs": "Pitis",
+  "nombre": "Pitis",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_98305",
+  "gtfs": "Madrid-Aeropuerto T4",
+  "nombre": "Madrid-Aeropuerto T4",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10000",
+  "gtfs": "Madrid-Príncipe Pío",
+  "nombre": "Madrid-Príncipe Pío",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17000",
+  "gtfs": "Madrid-Chamartín-Clara Campoamor",
+  "nombre": "Madrid-Chamartín-Clara Campoamor",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_98003",
+  "gtfs": "Fuente de la Mora",
+  "nombre": "Fuente de la Mora",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35011",
+  "gtfs": "Parque Polvoranca",
+  "nombre": "Parque Polvoranca",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17001",
+  "gtfs": "Fuencarral",
+  "nombre": "Fuencarral",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_17004",
+  "gtfs": "Tres Cantos",
+  "nombre": "Tres Cantos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12005",
+  "gtfs": "Los Molinos-Guadarrama",
+  "nombre": "Los Molinos-Guadarrama",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_10200",
+  "gtfs": "Villalba de Guadarrama",
+  "nombre": "Villalba de Guadarrama",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35010",
+  "gtfs": "La Serna-Fuenlabrada",
+  "nombre": "La Serna-Fuenlabrada",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_37012",
+  "gtfs": "Parla",
+  "nombre": "Parla",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70103",
+  "gtfs": "Alcalá de Henares",
+  "nombre": "Alcalá de Henares",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_12020",
+  "gtfs": "Puerto de Navacerrada",
+  "nombre": "Puerto de Navacerrada",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70101",
+  "gtfs": "San Fernando de Henares",
+  "nombre": "San Fernando de Henares",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70107",
+  "gtfs": "Alcalá de Henares-Universidad",
+  "nombre": "Alcalá de Henares-Universidad",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18001",
+  "gtfs": "Madrid-Recoletos",
+  "nombre": "Madrid-Recoletos",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35002",
+  "gtfs": "Fuenlabrada",
+  "nombre": "Fuenlabrada",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_35607",
+  "gtfs": "Móstoles-El Soto",
+  "nombre": "Móstoles-El Soto",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18000",
+  "gtfs": "Madrid-Atocha Cercanías",
+  "nombre": "Madrid-Atocha Cercanías",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70111",
+  "gtfs": "La Garena",
+  "nombre": "La Garena",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_60109",
+  "gtfs": "El Casar",
+  "nombre": "El Casar",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_18101",
+  "gtfs": "Sol",
+  "nombre": "Sol",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_97200",
+  "gtfs": "Mirasierra-Paco de Lucía",
+  "nombre": "Mirasierra-Paco de Lucía",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_70109",
+  "gtfs": "Santa Eugenia",
+  "nombre": "Santa Eugenia",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_37011",
+  "gtfs": "Getafe-Sector 3",
+  "nombre": "Getafe-Sector 3",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_97201",
+  "gtfs": "Madrid-Ramón y Cajal",
+  "nombre": "Madrid-Ramón y Cajal",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_19002",
+  "gtfs": "Valdelasfuentes",
+  "nombre": "Valdelasfuentes",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "cer_98304",
+  "gtfs": "Valdebebas",
+  "nombre": "Valdebebas",
+  "fuente": "gtfs"
+ },
+ {
+  "id": "est_4_292",
+  "gtfs": "HENARES",
+  "nombre": "Henares",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_29",
+  "gtfs": "MANUEL BECERRA",
+  "nombre": "Manuel Becerra",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_105",
+  "gtfs": "CARPETANA",
+  "nombre": "Carpetana",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_260",
+  "gtfs": "LA ELIPA",
+  "nombre": "La Elipa",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_255",
+  "gtfs": "CARABANCHEL ALTO",
+  "nombre": "Carabanchel Alto",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_176",
+  "gtfs": "VINATEROS",
+  "nombre": "Vinateros",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_135",
+  "gtfs": "GARCIA NOBLEJAS",
+  "nombre": "García Noblejas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_227",
+  "gtfs": "JUAN DE LA CIERVA",
+  "nombre": "Juan de la Cierva",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_3",
+  "gtfs": "TETUAN",
+  "nombre": "Tetuán",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_253",
+  "gtfs": "EL CAPRICHO",
+  "nombre": "El Capricho",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_18",
+  "gtfs": "PACIFICO",
+  "nombre": "Pacífico",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_4",
+  "gtfs": "ESTRECHO",
+  "nombre": "Estrecho",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_6",
+  "gtfs": "CUATRO CAMINOS",
+  "nombre": "Cuatro Caminos",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_21",
+  "gtfs": "PORTAZGO",
+  "nombre": "Portazgo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_178",
+  "gtfs": "PAVONES",
+  "nombre": "Pavones",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_207",
+  "gtfs": "ABRANTES",
+  "nombre": "Abrantes",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_41",
+  "gtfs": "CANAL",
+  "nombre": "Canal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_222",
+  "gtfs": "PARQUE DE LOS ESTADOS",
+  "nombre": "Parque de los Estados",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_20",
+  "gtfs": "NUEVA NUMANCIA",
+  "nombre": "Nueva Numancia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_90",
+  "gtfs": "LA LATINA",
+  "nombre": "La Latina",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_1",
+  "gtfs": "ALUCHE",
+  "nombre": "Aluche",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_104",
+  "gtfs": "LAGUNA",
+  "nombre": "Laguna",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_203",
+  "gtfs": "CUATRO VIENTOS",
+  "nombre": "Cuatro Vientos",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_283",
+  "gtfs": "REYES CATOLICOS",
+  "nombre": "Reyes Católicos",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_295",
+  "gtfs": "VALDECARROS",
+  "nombre": "Valdecarros",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_52",
+  "gtfs": "ARGÜELLES",
+  "nombre": "Argüelles",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_263",
+  "gtfs": "PINAR DE CHAMARTIN",
+  "nombre": "Pinar de Chamartín",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_258",
+  "gtfs": "PINAR DEL REY",
+  "nombre": "Pinar del Rey",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_278",
+  "gtfs": "LA GRANJA",
+  "nombre": "La Granja",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_220",
+  "gtfs": "PARQUE EUROPA",
+  "nombre": "Parque Europa",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_26",
+  "gtfs": "VILLA DE VALLECAS",
+  "nombre": "Villa de Vallecas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_76",
+  "gtfs": "SUANZES",
+  "nombre": "Suanzes",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_30",
+  "gtfs": "GOYA",
+  "nombre": "Goya",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_191",
+  "gtfs": "CUZCO",
+  "nombre": "Cuzco",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_276",
+  "gtfs": "LAS TABLAS",
+  "nombre": "Las Tablas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_215",
+  "gtfs": "PRADILLO",
+  "nombre": "Pradillo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_13",
+  "gtfs": "TIRSO DE MOLINA",
+  "nombre": "Tirso de Molina",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_291",
+  "gtfs": "JARAMA",
+  "nombre": "Jarama",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_40",
+  "gtfs": "QUEVEDO",
+  "nombre": "Quevedo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_75",
+  "gtfs": "TORRE ARIAS",
+  "nombre": "Torre Arias",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_205",
+  "gtfs": "PUERTA DEL SUR",
+  "nombre": "Puerta del Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_199",
+  "gtfs": "LAGO",
+  "nombre": "Lago",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_192",
+  "gtfs": "SANTIAGO BERNABEU",
+  "nombre": "Santiago Bernabéu",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_57",
+  "gtfs": "ALONSO MARTINEZ",
+  "nombre": "Alonso Martínez",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_230",
+  "gtfs": "EL BERCIAL",
+  "nombre": "El Bercial",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_277",
+  "gtfs": "RONDA DE LA COMUNICACION",
+  "nombre": "Ronda de la Comunicación",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_28",
+  "gtfs": "VENTAS",
+  "nombre": "Ventas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_66",
+  "gtfs": "ALFONSO XIII",
+  "nombre": "Alfonso XIII",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_300",
+  "gtfs": "RIVAS FUTURA",
+  "nombre": "Rivas Futura",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_95",
+  "gtfs": "URGEL",
+  "nombre": "Urgel",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_280",
+  "gtfs": "MARQUES DE LA VALDAVIA",
+  "nombre": "Marqués de la Valdavia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_62",
+  "gtfs": "LISTA",
+  "nombre": "Lista",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_140",
+  "gtfs": "CARTAGENA",
+  "nombre": "Cartagena",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_97",
+  "gtfs": "VISTA ALEGRE",
+  "nombre": "Vista Alegre",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_160",
+  "gtfs": "BARAJAS",
+  "nombre": "Barajas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_18",
+  "gtfs": "PRINCIPE PIO",
+  "nombre": "Príncipe Pío",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_326",
+  "gtfs": "MIRASIERRA",
+  "nombre": "Mirasierra",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_213",
+  "gtfs": "UNIVERSIDAD REY JUAN CARLOS",
+  "nombre": "Universidad Rey Juan Carlos",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_214",
+  "gtfs": "MOSTOLES CENTRAL",
+  "nombre": "Móstoles Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_142",
+  "gtfs": "GREGORIO MARAÑON",
+  "nombre": "Gregorio Marañón",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_99",
+  "gtfs": "EUGENIA DE MONTIJO",
+  "nombre": "Eugenia de Montijo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_156",
+  "gtfs": "COLOMBIA",
+  "nombre": "Colombia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_228",
+  "gtfs": "EL CASAR",
+  "nombre": "El Casar",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_345",
+  "gtfs": "PACO DE LUCIA",
+  "nombre": "Paco de Lucía",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_153",
+  "gtfs": "ARROYOFRESNO",
+  "nombre": "Arroyofresno",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_182",
+  "gtfs": "PUERTA DE ARGANDA",
+  "nombre": "Puerta de Arganda",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_73",
+  "gtfs": "PARQUE DE SANTA MARIA",
+  "nombre": "Parque de Santa María",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_84",
+  "gtfs": "RUBEN DARIO",
+  "nombre": "Rubén Darío",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_78",
+  "gtfs": "PUEBLO NUEVO",
+  "nombre": "Pueblo Nuevo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_284",
+  "gtfs": "HOSPITAL INFANTA SOFIA",
+  "nombre": "Hospital Infanta Sofía",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_96",
+  "gtfs": "OPORTO",
+  "nombre": "Oporto",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_322",
+  "gtfs": "LA ALMUDENA",
+  "nombre": "La Almudena",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_143",
+  "gtfs": "ALONSO CANO",
+  "nombre": "Alonso Cano",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_31",
+  "gtfs": "PRINCIPE DE VERGARA",
+  "nombre": "Príncipe de Vergara",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_151",
+  "gtfs": "AVENIDA DE LA ILUSTRACION",
+  "nombre": "Avenida de la Ilustración",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_36",
+  "gtfs": "OPERA",
+  "nombre": "Ópera",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_154",
+  "gtfs": "PITIS",
+  "nombre": "Pitis",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_229",
+  "gtfs": "LOS ESPARTALES",
+  "nombre": "Los Espartales",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_275",
+  "gtfs": "MONTECARMELO",
+  "nombre": "Montecarmelo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_109",
+  "gtfs": "USERA",
+  "nombre": "Usera",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_7",
+  "gtfs": "RIOS ROSAS",
+  "nombre": "Ríos Rosas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_17",
+  "gtfs": "MENENDEZ PELAYO",
+  "nombre": "Menéndez Pelayo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_24",
+  "gtfs": "MIGUEL HERNANDEZ",
+  "nombre": "Miguel Hernández",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_4_38",
+  "gtfs": "NOVICIADO",
+  "nombre": "Noviciado",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_168",
+  "gtfs": "CONCHA ESPINA",
+  "nombre": "Concha Espina",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_183",
+  "gtfs": "RIVAS URBANIZACIONES",
+  "nombre": "Rivas Urbanizaciones",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_274",
+  "gtfs": "TRES OLIVOS",
+  "nombre": "Tres Olivos",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_231",
+  "gtfs": "EL CARRASCAL",
+  "nombre": "El Carrascal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_177",
+  "gtfs": "ARTILLEROS",
+  "nombre": "Artilleros",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_179",
+  "gtfs": "VALDEBERNARDO",
+  "nombre": "Valdebernardo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_103",
+  "gtfs": "CASA DE CAMPO",
+  "nombre": "Casa de Campo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_123",
+  "gtfs": "VICENTE ALEIXANDRE",
+  "nombre": "Vicente Aleixandre",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_71",
+  "gtfs": "NUEVOS MINISTERIOS",
+  "nombre": "Nuevos Ministerios",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_208",
+  "gtfs": "PAN BENDITO",
+  "nombre": "Pan Bendito",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_324",
+  "gtfs": "AVENIDA DE GUADALAJARA",
+  "nombre": "Avenida de Guadalajara",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_281",
+  "gtfs": "MANUEL DE FALLA",
+  "nombre": "Manuel de Falla",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_288",
+  "gtfs": "COSLADA CENTRAL",
+  "nombre": "Coslada Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_19",
+  "gtfs": "PUENTE DE VALLECAS",
+  "nombre": "Puente de Vallecas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_233",
+  "gtfs": "CASA DEL RELOJ",
+  "nombre": "Casa del Reloj",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_224",
+  "gtfs": "CONSERVATORIO",
+  "nombre": "Conservatorio",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_25",
+  "gtfs": "SIERRA DE GUADALUPE",
+  "nombre": "Sierra de Guadalupe",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_211",
+  "gtfs": "ALCORCON CENTRAL",
+  "nombre": "Alcorcón Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_294",
+  "gtfs": "LAS SUERTES",
+  "nombre": "Las Suertes",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_223",
+  "gtfs": "ARROYO CULEBRO",
+  "nombre": "Arroyo Culebro",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_72",
+  "gtfs": "SAN LORENZO",
+  "nombre": "San Lorenzo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_58",
+  "gtfs": "COLON",
+  "nombre": "Colón",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_94",
+  "gtfs": "MARQUES DE VADILLO",
+  "nombre": "Marqués de Vadillo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_132",
+  "gtfs": "LAS MUSAS",
+  "nombre": "Las Musas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_289",
+  "gtfs": "LA RAMBLA",
+  "nombre": "La Rambla",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_77",
+  "gtfs": "CIUDAD LINEAL",
+  "nombre": "Ciudad Lineal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_138",
+  "gtfs": "BARRIO DE LA CONCEPCION",
+  "nombre": "Barrio de la Concepción",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_129",
+  "gtfs": "ALTO DE EXTREMADURA",
+  "nombre": "Alto de Extremadura",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_264",
+  "gtfs": "HORTALEZA",
+  "nombre": "Hortaleza",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_256",
+  "gtfs": "LA PESETA",
+  "nombre": "La Peseta",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_235",
+  "gtfs": "LEGANES CENTRAL",
+  "nombre": "Leganés Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_2",
+  "gtfs": "VALDEACEDERAS",
+  "nombre": "Valdeacederas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_115",
+  "gtfs": "ODONNELL",
+  "nombre": "O'Donnell",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_162",
+  "gtfs": "BARRIO DEL PILAR",
+  "nombre": "Barrio del Pilar",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_212",
+  "gtfs": "PARQUE OESTE",
+  "nombre": "Parque Oeste",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_147",
+  "gtfs": "FRANCOS RODRIGUEZ",
+  "nombre": "Francos Rodríguez",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_122",
+  "gtfs": "GUZMAN EL BUENO",
+  "nombre": "Guzmán el Bueno",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_279",
+  "gtfs": "LA MORALEJA",
+  "nombre": "La Moraleja",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_39",
+  "gtfs": "SAN BERNARDO",
+  "nombre": "San Bernardo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_74",
+  "gtfs": "CANILLEJAS",
+  "nombre": "Canillejas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_134",
+  "gtfs": "SIMANCAS",
+  "nombre": "Simancas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_161",
+  "gtfs": "HERRERA ORIA",
+  "nombre": "Herrera Oria",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_54",
+  "gtfs": "ATOCHA",
+  "nombre": "Atocha",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_8",
+  "gtfs": "IGLESIA",
+  "nombre": "Iglesia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_325",
+  "gtfs": "LAS ROSAS",
+  "nombre": "Las Rosas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_58",
+  "gtfs": "SOL",
+  "nombre": "Sol",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_210",
+  "gtfs": "PARQUE LISBOA",
+  "nombre": "Parque Lisboa",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_252",
+  "gtfs": "ALAMEDA DE OSUNA",
+  "nombre": "Alameda de Osuna",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_13",
+  "gtfs": "MENDEZ ALVARO",
+  "nombre": "Méndez Álvaro",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_14",
+  "gtfs": "ANTON MARTIN",
+  "nombre": "Antón Martín",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_63",
+  "gtfs": "DIEGO DE LEON",
+  "nombre": "Diego de León",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_148",
+  "gtfs": "VALDEZARZA",
+  "nombre": "Valdezarza",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_185",
+  "gtfs": "LA POVEDA",
+  "nombre": "La Poveda",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_69",
+  "gtfs": "ESPERANZA",
+  "nombre": "Esperanza",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_4",
+  "gtfs": "AVENIDA DE AMERICA",
+  "nombre": "Avenida de América",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_150",
+  "gtfs": "PEÑAGRANDE",
+  "nombre": "Peñagrande",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_34",
+  "gtfs": "SEVILLA",
+  "nombre": "Sevilla",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_70",
+  "gtfs": "CANILLAS",
+  "nombre": "Canillas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_133",
+  "gtfs": "SAN BLAS",
+  "nombre": "San Blas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_65",
+  "gtfs": "PROSPERIDAD",
+  "nombre": "Prosperidad",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_257",
+  "gtfs": "AVIACION ESPAÑOLA",
+  "nombre": "Aviación Española",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_265",
+  "gtfs": "MANOTERAS",
+  "nombre": "Manoteras",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_184",
+  "gtfs": "RIVAS VACIAMADRID",
+  "nombre": "Rivas Vaciamadrid",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_165",
+  "gtfs": "DUQUE DE PASTRANA",
+  "nombre": "Duque de Pastrana",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_4_92",
+  "gtfs": "ACACIAS",
+  "nombre": "Acacias",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_128",
+  "gtfs": "PUERTA DEL ANGEL",
+  "nombre": "Puerta del Ángel",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_60",
+  "gtfs": "VELAZQUEZ",
+  "nombre": "Velázquez",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_139",
+  "gtfs": "PARQUE DE LAS AVENIDAS",
+  "nombre": "Parque de las Avenidas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_107",
+  "gtfs": "OPAÑEL",
+  "nombre": "Opañel",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_180",
+  "gtfs": "VICALVARO",
+  "nombre": "Vicálvaro",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_80",
+  "gtfs": "EL CARMEN",
+  "nombre": "El Carmen",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_187",
+  "gtfs": "FUENCARRAL",
+  "nombre": "Fuencarral",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_93",
+  "gtfs": "PIRAMIDES",
+  "nombre": "Pirámides",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_25",
+  "gtfs": "CHAMARTIN",
+  "nombre": "Chamartín",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_293",
+  "gtfs": "LA GAVIA",
+  "nombre": "La Gavia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_225",
+  "gtfs": "ALONSO DE MENDOZA",
+  "nombre": "Alonso de Mendoza",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_32",
+  "gtfs": "RETIRO",
+  "nombre": "Retiro",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_290",
+  "gtfs": "SAN FERNANDO",
+  "nombre": "San Fernando",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_202",
+  "gtfs": "COLONIA JARDIN",
+  "nombre": "Colonia Jardín",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_101",
+  "gtfs": "EMPALME",
+  "nombre": "Empalme",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_169",
+  "gtfs": "CRUZ DEL RAYO",
+  "nombre": "Cruz del Rayo",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_71",
+  "gtfs": "MAR DE CRISTAL",
+  "nombre": "Mar de Cristal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_102",
+  "gtfs": "CAMPAMENTO",
+  "nombre": "Campamento",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_158",
+  "gtfs": "FERIA DE MADRID",
+  "nombre": "Feria de Madrid",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_166",
+  "gtfs": "PIO XII",
+  "nombre": "Pío XII",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_15",
+  "gtfs": "ESTACION DEL ARTE",
+  "nombre": "Estación del Arte",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_124",
+  "gtfs": "CIUDAD UNIVERSITARIA",
+  "nombre": "Ciudad Universitaria",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_113",
+  "gtfs": "CONDE DE CASAL",
+  "nombre": "Conde de Casal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_9",
+  "gtfs": "BILBAO",
+  "nombre": "Bilbao",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_163",
+  "gtfs": "VENTILLA",
+  "nombre": "Ventilla",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_98",
+  "gtfs": "CARABANCHEL",
+  "nombre": "Carabanchel",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_200",
+  "gtfs": "BATAN",
+  "nombre": "Batán",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_282",
+  "gtfs": "BAUNATAL",
+  "nombre": "Baunatal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_287",
+  "gtfs": "BARRIO DEL PUERTO",
+  "nombre": "Barrio del Puerto",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_236",
+  "gtfs": "SAN NICASIO",
+  "nombre": "San Nicasio",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_305",
+  "gtfs": "LA FORTUNA",
+  "nombre": "La Fortuna",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_323",
+  "gtfs": "ALSACIA",
+  "nombre": "Alsacia",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_217",
+  "gtfs": "MANUELA MALASAÑA",
+  "nombre": "Manuela Malasaña",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_22",
+  "gtfs": "BUENOS AIRES",
+  "nombre": "Buenos Aires",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_10",
+  "gtfs": "TRIBUNAL",
+  "nombre": "Tribunal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_114",
+  "gtfs": "SAINZ DE BARANDA",
+  "nombre": "Sainz de Baranda",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_59",
+  "gtfs": "SERRANO",
+  "nombre": "Serrano",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_149",
+  "gtfs": "ANTONIO MACHADO",
+  "nombre": "Antonio Machado",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_181",
+  "gtfs": "SAN CIPRIANO",
+  "nombre": "San Cipriano",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_221",
+  "gtfs": "FUENLABRADA CENTRAL",
+  "nombre": "Fuenlabrada Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_232",
+  "gtfs": "JULIAN BESTEIRO",
+  "nombre": "Julián Besteiro",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_86",
+  "gtfs": "CHUECA",
+  "nombre": "Chueca",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_188",
+  "gtfs": "BEGOÑA",
+  "nombre": "Begoña",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_5",
+  "gtfs": "ALVARADO",
+  "nombre": "Alvarado",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_14",
+  "gtfs": "MONCLOA",
+  "nombre": "Moncloa",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_219",
+  "gtfs": "HOSPITAL DE FUENLABRADA",
+  "nombre": "Hospital de Fuenlabrada",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_79",
+  "gtfs": "QUINTANA",
+  "nombre": "Quintana",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_216",
+  "gtfs": "HOSPITAL DE MOSTOLES",
+  "nombre": "Hospital de Móstoles",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_218",
+  "gtfs": "LORANCA",
+  "nombre": "Loranca",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_254",
+  "gtfs": "SAN FRANCISCO",
+  "nombre": "San Francisco",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_145",
+  "gtfs": "ISLAS FILIPINAS",
+  "nombre": "Islas Filipinas",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_23",
+  "gtfs": "ALTO DEL ARENAL",
+  "nombre": "Alto del Arenal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_43",
+  "gtfs": "LEGAZPI",
+  "nombre": "Legazpi",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_234",
+  "gtfs": "HOSPITAL SEVERO OCHOA",
+  "nombre": "Hospital Severo Ochoa",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_130",
+  "gtfs": "LUCERO",
+  "nombre": "Lucero",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_49",
+  "gtfs": "CALLAO",
+  "nombre": "Callao",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_186",
+  "gtfs": "ARGANDA DEL REY",
+  "nombre": "Arganda del Rey",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_226",
+  "gtfs": "GETAFE CENTRAL",
+  "nombre": "Getafe Central",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_259",
+  "gtfs": "ARGANZUELA-PLANETARIO",
+  "nombre": "Arganzuela-Planetario",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_175",
+  "gtfs": "ESTRELLA",
+  "nombre": "Estrella",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_152",
+  "gtfs": "LACOMA",
+  "nombre": "Lacoma",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_204",
+  "gtfs": "JOAQUIN VILUMBRALES",
+  "nombre": "Joaquín Vilumbrales",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_34",
+  "gtfs": "AEROPUERTO T1-T2-T3",
+  "nombre": "Aeropuerto T1-T2-T3",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_2",
+  "gtfs": "FUENTE DE LA MORA",
+  "nombre": "Fuente de la Mora",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_10",
+  "gtfs": "COLONIA JARDIN",
+  "nombre": "Colonia Jardín",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_20",
+  "gtfs": "CAMPUS DE SOMOSAGUAS",
+  "nombre": "Campus de Somosaguas",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_54",
+  "gtfs": "IGLESIA CENTRO",
+  "nombre": "Iglesia Centro",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_57",
+  "gtfs": "ISABEL II",
+  "nombre": "Isabel II",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_13",
+  "gtfs": "PRADO DEL REY",
+  "nombre": "Prado del Rey",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_5",
+  "gtfs": "ALVAREZ DE VILLAAMIL",
+  "nombre": "Álvarez de Villaamil",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_50",
+  "gtfs": "PLAZA DE TOROS",
+  "nombre": "Plaza de Toros",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_32",
+  "gtfs": "CANTABRIA",
+  "nombre": "Cantabria",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_15",
+  "gtfs": "SOMOSAGUAS CENTRO",
+  "nombre": "Somosaguas Centro",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_26",
+  "gtfs": "JOSE ISBERT",
+  "nombre": "José Isbert",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_25",
+  "gtfs": "CIUDAD DE LA IMAGEN",
+  "nombre": "Ciudad de la Imagen",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_31",
+  "gtfs": "PRADO DEL ESPINO",
+  "nombre": "Prado del Espino",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_33",
+  "gtfs": "FERIAL DE BOADILLA",
+  "nombre": "Ferial de Boadilla",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_64",
+  "gtfs": "ESTRELLA POLAR NORTE",
+  "nombre": "Estrella Polar Norte",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_4",
+  "gtfs": "ANTONIO SAURA",
+  "nombre": "Antonio Saura",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_55",
+  "gtfs": "BULEVAR SUR",
+  "nombre": "Bulevar Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_58",
+  "gtfs": "PARQUE PARLA ESTE",
+  "nombre": "Parque Parla Este",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_61",
+  "gtfs": "TIERRA SUR",
+  "nombre": "Tierra Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_65",
+  "gtfs": "ESTRELLA POLAR SUR",
+  "nombre": "Estrella Polar Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_37",
+  "gtfs": "INFANTE DON LUIS",
+  "nombre": "Infante Don Luis",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_12",
+  "gtfs": "COLONIA DE LOS ANGELES",
+  "nombre": "Colonia de los Ángeles",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_6",
+  "gtfs": "BLASCO IBAÑEZ",
+  "nombre": "Blasco Ibáñez",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_36",
+  "gtfs": "SIGLO XXI",
+  "nombre": "Siglo XXI",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_56",
+  "gtfs": "REYES CATOLICOS",
+  "nombre": "Reyes Católicos",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_62",
+  "gtfs": "VENUS NORTE",
+  "nombre": "Venus Norte",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_9",
+  "gtfs": "LAS TABLAS",
+  "nombre": "Las Tablas",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_16",
+  "gtfs": "POZUELO OESTE",
+  "nombre": "Pozuelo Oeste",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_3",
+  "gtfs": "VIRGEN DEL CORTIJO",
+  "nombre": "Virgen del Cortijo",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_59",
+  "gtfs": "AVENIDA SISTEMA SOLAR",
+  "nombre": "Avenida Sistema Solar",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_27",
+  "gtfs": "CIUDAD DEL CINE",
+  "nombre": "Ciudad del Cine",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_10_1",
+  "gtfs": "PINAR DE CHAMARTIN",
+  "nombre": "Pinar de Chamartín",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_11",
+  "gtfs": "PRADO DE LA VEGA",
+  "nombre": "Prado de la Vega",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_28",
+  "gtfs": "RETAMARES",
+  "nombre": "Retamares",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_52",
+  "gtfs": "LA BALLENA",
+  "nombre": "La Ballena",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_34",
+  "gtfs": "BOADILLA CENTRO",
+  "nombre": "Boadilla Centro",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_67",
+  "gtfs": "JAIME I SUR",
+  "nombre": "Jaime I Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_68",
+  "gtfs": "POLIGONO INDUSTRIAL CIUDAD DE PARLA",
+  "nombre": "Polígono Industrial Ciudad de Parla",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_39",
+  "gtfs": "COCHERAS",
+  "nombre": "Cocheras",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_66",
+  "gtfs": "JAIME I NORTE",
+  "nombre": "Jaime I Norte",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_30",
+  "gtfs": "VENTORRO DEL CANO",
+  "nombre": "Ventorro del Cano",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_51",
+  "gtfs": "JULIO ROMERO DE TORRES",
+  "nombre": "Julio Romero de Torres",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_23",
+  "gtfs": "ESTACION DE ARAVACA",
+  "nombre": "Estación de Aravaca",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_19",
+  "gtfs": "DOS CASTILLAS",
+  "nombre": "Dos Castillas",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_60",
+  "gtfs": "TIERRA NORTE",
+  "nombre": "Tierra Norte",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_18",
+  "gtfs": "BELGICA",
+  "nombre": "Bélgica",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_63",
+  "gtfs": "VENUS SUR",
+  "nombre": "Venus Sur",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_35",
+  "gtfs": "NUEVO MUNDO",
+  "nombre": "Nuevo Mundo",
+  "fuente": "osm"
+ },
+ {
+  "id": "par_10_38",
+  "gtfs": "PUERTA DE BOADILLA",
+  "nombre": "Puerta de Boadilla",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_51",
+  "gtfs": "VENTURA RODRIGUEZ",
+  "nombre": "Ventura Rodríguez",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_47",
+  "gtfs": "LAVAPIES",
+  "nombre": "Lavapiés",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_45",
+  "gtfs": "PALOS DE LA FRONTERA",
+  "nombre": "Palos de la Frontera",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_44",
+  "gtfs": "DELICIAS",
+  "nombre": "Delicias",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_267",
+  "gtfs": "ALMENDRALES",
+  "nombre": "Almendrales",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_268",
+  "gtfs": "HOSPITAL 12 DE OCTUBRE",
+  "nombre": "Hospital 12 de Octubre",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_269",
+  "gtfs": "SAN FERMIN-ORCASUR",
+  "nombre": "San Fermín-Orcasur",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_270",
+  "gtfs": "CIUDAD DE LOS ANGELES",
+  "nombre": "Ciudad de los Ángeles",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_271",
+  "gtfs": "VILLAVERDE BAJO CRUCE",
+  "nombre": "Villaverde Bajo - Cruce",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_272",
+  "gtfs": "SAN CRISTOBAL",
+  "nombre": "San Cristóbal",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_4_273",
+  "gtfs": "VILLAVERDE ALTO",
+  "nombre": "Villaverde Alto",
+  "fuente": "osm"
+ },
+ {
+  "id": "est_90_33",
+  "gtfs": "AEROPUERTO T-4",
+  "nombre": "Aeropuerto T-4",
+  "fuente": "titulo"
+ },
+ {
+  "id": "par_10_53",
+  "gtfs": "PARLA CENTRO - BULEVAR NORTE",
+  "nombre": "Parla Centro - Bulevar Norte",
+  "fuente": "titulo"
+ }
+]

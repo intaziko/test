@@ -1,0 +1,194 @@
+{
+ "territorios_no_municipales_excluidos": [
+  "El Redegüelo",
+  "Los Baldíos"
+ ],
+ "distritos_vs_municipio_madrid": {
+  "area_municipio_km2": 603.9,
+  "area_union_distritos_km2": 603.9,
+  "diferencia_simetrica_km2": 0.0
+ },
+ "solape_entre_distritos_m2": 0,
+ "municipios_vs_ign": {
+  "n": 179,
+  "emparejados_por_solape": [
+   "El Boalo-Cerceda-Mataelpino"
+  ],
+  "ratio_area_min": 0.881,
+  "ratio_area_max": 1.417,
+  "dist_centroide_mediana_m": 110,
+  "dist_centroide_max_m": 496,
+  "mayores_diferencias": [
+   {
+    "nm": "Casarrubuelos",
+    "ratio_area": 1.417,
+    "dist_centroide_m": 178.343
+   },
+   {
+    "nm": "Serranillos del Valle",
+    "ratio_area": 1.239,
+    "dist_centroide_m": 396.128
+   },
+   {
+    "nm": "Alpedrete",
+    "ratio_area": 1.221,
+    "dist_centroide_m": 68.539
+   },
+   {
+    "nm": "Mejorada del Campo",
+    "ratio_area": 1.219,
+    "dist_centroide_m": 132.797
+   },
+   {
+    "nm": "Cervera de Buitrago",
+    "ratio_area": 1.215,
+    "dist_centroide_m": 100.273
+   }
+  ],
+  "ratio_area_mediana": 1.003,
+  "ratio_area_>50km2": [
+   0.96,
+   1.039
+  ]
+ },
+ "contraste_oficial": {
+  "municipio_madrid": {
+   "oficial_ha": 60445.52,
+   "calculado_ha": 60390.3,
+   "ratio": 0.9991
+  },
+  "distrito_centro": {
+   "oficial_ha": 522.8,
+   "calculado_ha": 517.3,
+   "ratio": 0.9894
+  }
+ },
+ "distritos": [
+  {
+   "codigo": 1,
+   "nombre": "Centro",
+   "area_km2": 5.17,
+   "osm": "r356761@26"
+  },
+  {
+   "codigo": 2,
+   "nombre": "Arganzuela",
+   "area_km2": 6.51,
+   "osm": "r356775@30"
+  },
+  {
+   "codigo": 3,
+   "nombre": "Retiro",
+   "area_km2": 5.45,
+   "osm": "r356879@22"
+  },
+  {
+   "codigo": 4,
+   "nombre": "Salamanca",
+   "area_km2": 5.39,
+   "osm": "r356962@52"
+  },
+  {
+   "codigo": 5,
+   "nombre": "Chamartín",
+   "area_km2": 9.21,
+   "osm": "r356983@50"
+  },
+  {
+   "codigo": 6,
+   "nombre": "Tetuán",
+   "area_km2": 5.36,
+   "osm": "r356984@27"
+  },
+  {
+   "codigo": 7,
+   "nombre": "Chamberí",
+   "area_km2": 4.7,
+   "osm": "r356998@31"
+  },
+  {
+   "codigo": 8,
+   "nombre": "Fuencarral-El Pardo",
+   "area_km2": 237.77,
+   "osm": "r356771@37"
+  },
+  {
+   "codigo": 9,
+   "nombre": "Moncloa-Aravaca",
+   "area_km2": 46.58,
+   "osm": "r356760@69"
+  },
+  {
+   "codigo": 10,
+   "nombre": "Latina",
+   "area_km2": 25.41,
+   "osm": "r355676@40"
+  },
+  {
+   "codigo": 11,
+   "nombre": "Carabanchel",
+   "area_km2": 14.05,
+   "osm": "r355666@39"
+  },
+  {
+   "codigo": 12,
+   "nombre": "Usera",
+   "area_km2": 7.76,
+   "osm": "r349469@16"
+  },
+  {
+   "codigo": 13,
+   "nombre": "Puente de Vallecas",
+   "area_km2": 14.94,
+   "osm": "r354080@21"
+  },
+  {
+   "codigo": 14,
+   "nombre": "Moratalaz",
+   "area_km2": 6.11,
+   "osm": "r354223@17"
+  },
+  {
+   "codigo": 15,
+   "nombre": "Ciudad Lineal",
+   "area_km2": 11.41,
+   "osm": "r1675818@39"
+  },
+  {
+   "codigo": 16,
+   "nombre": "Hortaleza",
+   "area_km2": 27.61,
+   "osm": "r354522@35"
+  },
+  {
+   "codigo": 17,
+   "nombre": "Villaverde",
+   "area_km2": 20.15,
+   "osm": "r349470@10"
+  },
+  {
+   "codigo": 18,
+   "nombre": "Villa de Vallecas",
+   "area_km2": 51.48,
+   "osm": "r349485@33"
+  },
+  {
+   "codigo": 19,
+   "nombre": "Vicálvaro",
+   "area_km2": 34.85,
+   "osm": "r354389@25"
+  },
+  {
+   "codigo": 20,
+   "nombre": "San Blas-Canillejas",
+   "area_km2": 22.31,
+   "osm": "r354377@33"
+  },
+  {
+   "codigo": 21,
+   "nombre": "Barajas",
+   "area_km2": 41.69,
+   "osm": "r354410@16"
+  }
+ ]
+}

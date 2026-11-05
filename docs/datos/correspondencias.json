@@ -1,0 +1,334 @@
+[
+ {
+  "a": "est_4_263",
+  "b": "est_10_1",
+  "dist": 3,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Pinar de Chamartín",
+  "b_nombre": "Pinar de Chamartín",
+  "a_red": "metro",
+  "b_red": "ml"
+ },
+ {
+  "a": "est_90_54",
+  "b": "cer_18000",
+  "dist": 3,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Atocha",
+  "b_nombre": "Madrid-Atocha Cercanías",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_202",
+  "b": "est_10_10",
+  "dist": 5,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Colonia Jardín",
+  "b_nombre": "Colonia Jardín",
+  "a_red": "metro",
+  "b_red": "ml"
+ },
+ {
+  "a": "est_4_203",
+  "b": "cer_35603",
+  "dist": 6,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Cuatro Vientos",
+  "b_nombre": "Cuatro Vientos",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_93",
+  "b": "cer_18005",
+  "dist": 7,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Pirámides",
+  "b_nombre": "Pirámides",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_226",
+  "b": "cer_37002",
+  "dist": 9,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Getafe Central",
+  "b_nombre": "Getafe-Centro",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_182",
+  "b": "cer_70100",
+  "dist": 10,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Puerta de Arganda",
+  "b_nombre": "Vicálvaro",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_71",
+  "b": "cer_18002",
+  "dist": 10,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Nuevos Ministerios",
+  "b_nombre": "Madrid-Nuevos Ministerios",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_1",
+  "b": "cer_35600",
+  "dist": 11,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Aluche",
+  "b_nombre": "Aluche",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_228",
+  "b": "cer_60109",
+  "dist": 11,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "El Casar",
+  "b_nombre": "El Casar",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_276",
+  "b": "est_10_9",
+  "dist": 14,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Las Tablas",
+  "b_nombre": "Las Tablas",
+  "a_red": "metro",
+  "b_red": "ml"
+ },
+ {
+  "a": "est_4_211",
+  "b": "cer_35605",
+  "dist": 18,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Alcorcón Central",
+  "b_nombre": "Alcorcón",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_214",
+  "b": "cer_35606",
+  "dist": 19,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Móstoles Central",
+  "b_nombre": "Móstoles",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_345",
+  "b": "cer_97200",
+  "dist": 19,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Paco de Lucía",
+  "b_nombre": "Mirasierra-Paco de Lucía",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_104",
+  "b": "cer_35608",
+  "dist": 20,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Laguna",
+  "b_nombre": "Laguna",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_10_2",
+  "b": "cer_98003",
+  "dist": 20,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Fuente de la Mora",
+  "b_nombre": "Fuente de la Mora",
+  "a_red": "ml",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_25",
+  "b": "cer_70001",
+  "dist": 25,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Sierra de Guadalupe",
+  "b_nombre": "Vallecas",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "par_10_23",
+  "b": "cer_10001",
+  "dist": 33,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Estación de Aravaca",
+  "b_nombre": "Aravaca",
+  "a_red": "ml",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_58",
+  "b": "cer_18101",
+  "dist": 37,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Sol",
+  "b_nombre": "Sol",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_154",
+  "b": "cer_97100",
+  "dist": 41,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Pitis",
+  "b_nombre": "Pitis",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "par_10_53",
+  "b": "cer_37012",
+  "dist": 41,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Parla Centro - Bulevar Norte",
+  "b_nombre": "Parla",
+  "a_red": "ml",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_235",
+  "b": "cer_35001",
+  "dist": 43,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Leganés Central",
+  "b_nombre": "Leganés",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_273",
+  "b": "cer_37001",
+  "dist": 50,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Villaverde Alto",
+  "b_nombre": "Madrid-Villaverde Alto",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_13",
+  "b": "cer_18003",
+  "dist": 53,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Méndez Álvaro",
+  "b_nombre": "Méndez Álvaro P.V.",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_46",
+  "b": "cer_35609",
+  "dist": 54,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Embajadores",
+  "b_nombre": "Embajadores",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_288",
+  "b": "cer_70108",
+  "dist": 56,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Coslada Central",
+  "b_nombre": "Coslada",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_33",
+  "b": "cer_98305",
+  "dist": 77,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Aeropuerto T-4",
+  "b_nombre": "Madrid-Aeropuerto T4",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_221",
+  "b": "cer_35002",
+  "dist": 90,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Fuenlabrada Central",
+  "b_nombre": "Fuenlabrada",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_25",
+  "b": "cer_17000",
+  "dist": 105,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Chamartín",
+  "b_nombre": "Madrid-Chamartín-Clara Campoamor",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_90_18",
+  "b": "cer_10000",
+  "dist": 128,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Príncipe Pío",
+  "b_nombre": "Madrid-Príncipe Pío",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_44",
+  "b": "cer_18004",
+  "dist": 135,
+  "tipo": "nombre+proximidad",
+  "a_nombre": "Delicias",
+  "b_nombre": "Delicias",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "est_4_11",
+  "b": "cer_18101",
+  "dist": 361,
+  "tipo": "verificada",
+  "fuente": "Comunidad de Madrid, nota 16/12/2020 'Reabriremos la nueva estación de Metro de Gran Vía' https://www.comunidad.madrid/noticias/2020/12/16/reabriremos-nueva-estacion-metro-gran-via-proximo-verano",
+  "a_nombre": "Gran Vía",
+  "b_nombre": "Sol",
+  "a_red": "metro",
+  "b_red": "cercanias"
+ },
+ {
+  "a": "par_4_92",
+  "b": "est_4_46",
+  "dist": 364,
+  "tipo": "verificada",
+  "fuente": "Wikipedia, 'Acacias-Embajadores (Madrid Metro)' https://en.wikipedia.org/wiki/Acacias_(Madrid_Metro) (fuente secundaria)",
+  "a_nombre": "Acacias",
+  "b_nombre": "Embajadores",
+  "a_red": "metro",
+  "b_red": "metro"
+ }
+]

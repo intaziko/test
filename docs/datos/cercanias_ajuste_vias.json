@@ -1,0 +1,1924 @@
+[
+ {
+  "linea": "C1",
+  "de": "17000",
+  "a": "98003",
+  "km": 2.9,
+  "sinuosidad": 1.28,
+  "guiado": true,
+  "dist_max_shape_m": 26,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C1",
+  "de": "98003",
+  "a": "98304",
+  "km": 4.09,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 19,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C1",
+  "de": "98304",
+  "a": "98305",
+  "km": 2.84,
+  "sinuosidad": 1.25,
+  "guiado": true,
+  "dist_max_shape_m": 18,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C1",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C1",
+  "de": "18002",
+  "a": "18001",
+  "km": 2.65,
+  "sinuosidad": 1.03,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C1",
+  "de": "18001",
+  "a": "18000",
+  "km": 1.99,
+  "sinuosidad": 1.07,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 260,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18002",
+  "a": "18001",
+  "km": 2.65,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 68,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18001",
+  "a": "18000",
+  "km": 1.99,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18000",
+  "a": "18003",
+  "km": 1.63,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 200,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18003",
+  "a": "18004",
+  "km": 1.44,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18004",
+  "a": "18005",
+  "km": 1.6,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 7,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "18005",
+  "a": "10000",
+  "km": 2.52,
+  "sinuosidad": 1.14,
+  "guiado": true,
+  "dist_max_shape_m": 175,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10000",
+  "a": "10001",
+  "km": 6.8,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 7,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10001",
+  "a": "10002",
+  "km": 1.3,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10002",
+  "a": "10010",
+  "km": 2.58,
+  "sinuosidad": 1.24,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10010",
+  "a": "10007",
+  "km": 3.44,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 1,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10007",
+  "a": "10005",
+  "km": 2.95,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10005",
+  "a": "10100",
+  "km": 3.34,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 24,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10200",
+  "a": "10104",
+  "km": 3.83,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 34,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10104",
+  "a": "10103",
+  "km": 3.84,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10103",
+  "a": "10101",
+  "km": 6.14,
+  "sinuosidad": 1.09,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10101",
+  "a": "10100",
+  "km": 3.73,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 24,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10002",
+  "a": "10005",
+  "km": 8.97,
+  "sinuosidad": 1.16,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10100",
+  "a": "10200",
+  "km": 17.55,
+  "sinuosidad": 1.12,
+  "guiado": true,
+  "dist_max_shape_m": 34,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10203",
+  "a": "10202",
+  "km": 8.59,
+  "sinuosidad": 1.11,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10202",
+  "a": "10201",
+  "km": 1.62,
+  "sinuosidad": 1.01,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C10",
+  "de": "10201",
+  "a": "10200",
+  "km": 2.22,
+  "sinuosidad": 1.02,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 260,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "18002",
+  "a": "18001",
+  "km": 2.65,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 68,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "18001",
+  "a": "18000",
+  "km": 1.99,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "18000",
+  "a": "70002",
+  "km": 3.48,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70002",
+  "a": "70003",
+  "km": 1.23,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70003",
+  "a": "70001",
+  "km": 2.77,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70001",
+  "a": "70109",
+  "km": 1.45,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 8,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70109",
+  "a": "70100",
+  "km": 1.97,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 2,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70100",
+  "a": "70108",
+  "km": 3.84,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70108",
+  "a": "70101",
+  "km": 3.3,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70101",
+  "a": "70102",
+  "km": 4.79,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70102",
+  "a": "70112",
+  "km": 3.55,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 26,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70112",
+  "a": "70111",
+  "km": 4.5,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 24,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70111",
+  "a": "70103",
+  "km": 2.46,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70103",
+  "a": "70102",
+  "km": 10.36,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70101",
+  "a": "98003",
+  "km": 13.26,
+  "sinuosidad": 1.12,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "98003",
+  "a": "17000",
+  "km": 2.9,
+  "sinuosidad": 1.28,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70200",
+  "a": "70105",
+  "km": 11.61,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 7,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70105",
+  "a": "70104",
+  "km": 4.07,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70104",
+  "a": "70107",
+  "km": 4.49,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 1,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C2",
+  "de": "70107",
+  "a": "70103",
+  "km": 3.23,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60103",
+  "a": "60102",
+  "km": 7.0,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 6,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60102",
+  "a": "60109",
+  "km": 1.43,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60109",
+  "a": "60101",
+  "km": 1.89,
+  "sinuosidad": 1.08,
+  "guiado": true,
+  "dist_max_shape_m": 2,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60101",
+  "a": "60107",
+  "km": 2.0,
+  "sinuosidad": 1.16,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60107",
+  "a": "60100",
+  "km": 1.14,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60100",
+  "a": "18000",
+  "km": 7.08,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "18000",
+  "a": "18101",
+  "km": 1.7,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 102,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "18101",
+  "a": "18002",
+  "km": 3.52,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 508,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C3",
+  "de": "18002",
+  "a": "17000",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 275,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60103",
+  "a": "60104",
+  "km": 6.31,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 2,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60104",
+  "a": "60105",
+  "km": 6.5,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 15,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60105",
+  "a": "60200",
+  "km": 14.75,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 42,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60103",
+  "a": "60109",
+  "km": 8.44,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 6,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C3",
+  "de": "60109",
+  "a": "18000",
+  "km": 12.12,
+  "sinuosidad": 1.22,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "19003",
+  "a": "19002",
+  "km": 1.73,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 57,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "19002",
+  "a": "19001",
+  "km": 2.64,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "19001",
+  "a": "17009",
+  "km": 2.41,
+  "sinuosidad": 1.35,
+  "guiado": true,
+  "dist_max_shape_m": 7,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "17009",
+  "a": "17001",
+  "km": 5.16,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "17001",
+  "a": "17000",
+  "km": 3.83,
+  "sinuosidad": 1.14,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 275,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "18002",
+  "a": "18101",
+  "km": 3.52,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 275,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C4a",
+  "de": "18101",
+  "a": "18000",
+  "km": 1.7,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 102,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "18000",
+  "a": "60100",
+  "km": 7.08,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "60100",
+  "a": "37001",
+  "km": 3.21,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 53,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "37001",
+  "a": "37010",
+  "km": 2.78,
+  "sinuosidad": 1.15,
+  "guiado": true,
+  "dist_max_shape_m": 17,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "37010",
+  "a": "37002",
+  "km": 1.56,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "37002",
+  "a": "37011",
+  "km": 2.42,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4a",
+  "de": "37011",
+  "a": "37012",
+  "km": 7.87,
+  "sinuosidad": 1.33,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17005",
+  "a": "17004",
+  "km": 10.81,
+  "sinuosidad": 1.48,
+  "guiado": true,
+  "dist_max_shape_m": 37,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17004",
+  "a": "17003",
+  "km": 4.63,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 75,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17003",
+  "a": "17009",
+  "km": 2.32,
+  "sinuosidad": 1.14,
+  "guiado": true,
+  "dist_max_shape_m": 60,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17009",
+  "a": "17001",
+  "km": 5.16,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17001",
+  "a": "17000",
+  "km": 3.83,
+  "sinuosidad": 1.14,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 275,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "18002",
+  "a": "18101",
+  "km": 3.52,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 275,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C4b",
+  "de": "18101",
+  "a": "18000",
+  "km": 1.7,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 102,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "18000",
+  "a": "60100",
+  "km": 7.08,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "60100",
+  "a": "37001",
+  "km": 3.21,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 53,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "37001",
+  "a": "37010",
+  "km": 2.78,
+  "sinuosidad": 1.15,
+  "guiado": true,
+  "dist_max_shape_m": 17,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "37010",
+  "a": "37002",
+  "km": 1.56,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "37002",
+  "a": "37011",
+  "km": 2.42,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "37011",
+  "a": "37012",
+  "km": 7.87,
+  "sinuosidad": 1.33,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C4b",
+  "de": "17000",
+  "a": "18101",
+  "km": 7.82,
+  "sinuosidad": 1.25,
+  "guiado": true,
+  "dist_max_shape_m": 90,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "18000",
+  "a": "18003",
+  "km": 1.62,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 40,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "18003",
+  "a": "35702",
+  "km": 2.63,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 381,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C5",
+  "de": "35702",
+  "a": "35703",
+  "km": 1.46,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 12,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35703",
+  "a": "35704",
+  "km": 1.91,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 12,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35704",
+  "a": "37001",
+  "km": 1.86,
+  "sinuosidad": 1.61,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "37001",
+  "a": "35009",
+  "km": 3.05,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35009",
+  "a": "35001",
+  "km": 2.51,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 15,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35001",
+  "a": "35011",
+  "km": 2.07,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 15,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35011",
+  "a": "35010",
+  "km": 1.91,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35010",
+  "a": "35002",
+  "km": 1.6,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 18,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35002",
+  "a": "35012",
+  "km": 3.97,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 18,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35607",
+  "a": "35606",
+  "km": 2.03,
+  "sinuosidad": 1.25,
+  "guiado": true,
+  "dist_max_shape_m": 36,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35606",
+  "a": "35610",
+  "km": 2.37,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35610",
+  "a": "35605",
+  "km": 1.28,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35605",
+  "a": "35604",
+  "km": 1.63,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35604",
+  "a": "35603",
+  "km": 3.17,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35603",
+  "a": "35602",
+  "km": 1.05,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 25,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35602",
+  "a": "35601",
+  "km": 1.01,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 25,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35601",
+  "a": "35600",
+  "km": 0.71,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 25,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35600",
+  "a": "35608",
+  "km": 2.22,
+  "sinuosidad": 1.09,
+  "guiado": true,
+  "dist_max_shape_m": 187,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35608",
+  "a": "35609",
+  "km": 3.71,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 168,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C5",
+  "de": "35609",
+  "a": "18000",
+  "km": 1.18,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 40,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C7",
+  "de": "17000",
+  "a": "18002",
+  "km": 2.9,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 260,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18002",
+  "a": "18001",
+  "km": 2.65,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 68,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18001",
+  "a": "18000",
+  "km": 1.99,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 38,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18000",
+  "a": "70103",
+  "km": 33.19,
+  "sinuosidad": 1.15,
+  "guiado": true,
+  "dist_max_shape_m": 43,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10000",
+  "a": "10001",
+  "km": 6.8,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10001",
+  "a": "10002",
+  "km": 1.3,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10002",
+  "a": "10010",
+  "km": 2.58,
+  "sinuosidad": 1.24,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10010",
+  "a": "10007",
+  "km": 3.44,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 1,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10007",
+  "a": "10005",
+  "km": 2.95,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "10005",
+  "a": "97100",
+  "km": 15.04,
+  "sinuosidad": 1.25,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "97100",
+  "a": "97200",
+  "km": 1.6,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "97200",
+  "a": "97201",
+  "km": 2.1,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "97201",
+  "a": "17000",
+  "km": 2.77,
+  "sinuosidad": 1.3,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18000",
+  "a": "70002",
+  "km": 3.48,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70002",
+  "a": "70003",
+  "km": 1.23,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70003",
+  "a": "70001",
+  "km": 2.77,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70001",
+  "a": "70109",
+  "km": 1.45,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 7,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70109",
+  "a": "70100",
+  "km": 1.97,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 2,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70100",
+  "a": "70108",
+  "km": 3.84,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70108",
+  "a": "70101",
+  "km": 3.31,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 16,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70101",
+  "a": "70102",
+  "km": 4.79,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70102",
+  "a": "70112",
+  "km": 3.55,
+  "sinuosidad": 1.04,
+  "guiado": true,
+  "dist_max_shape_m": 26,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70112",
+  "a": "70111",
+  "km": 4.5,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 24,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70111",
+  "a": "70103",
+  "km": 2.46,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 43,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18000",
+  "a": "18003",
+  "km": 1.62,
+  "sinuosidad": 1.05,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18003",
+  "a": "18004",
+  "km": 1.44,
+  "sinuosidad": 1.05,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18004",
+  "a": "18005",
+  "km": 1.6,
+  "sinuosidad": 1.0,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "18005",
+  "a": "10000",
+  "km": 2.52,
+  "sinuosidad": 1.14,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70200",
+  "a": "70105",
+  "km": 11.61,
+  "sinuosidad": 1.0,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70105",
+  "a": "70104",
+  "km": 4.07,
+  "sinuosidad": 1.0,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70104",
+  "a": "70107",
+  "km": 4.49,
+  "sinuosidad": 1.0,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C7",
+  "de": "70107",
+  "a": "70103",
+  "km": 3.23,
+  "sinuosidad": 1.01,
+  "guiado": false,
+  "dist_max_shape_m": null,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10206",
+  "a": "10205",
+  "km": 6.7,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 10,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10205",
+  "a": "10204",
+  "km": 8.54,
+  "sinuosidad": 1.1,
+  "guiado": true,
+  "dist_max_shape_m": 9,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10204",
+  "a": "10203",
+  "km": 6.33,
+  "sinuosidad": 1.13,
+  "guiado": true,
+  "dist_max_shape_m": 8,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "17000",
+  "a": "97201",
+  "km": 2.77,
+  "sinuosidad": 1.3,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "97201",
+  "a": "97200",
+  "km": 2.1,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "97200",
+  "a": "97100",
+  "km": 1.6,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "97100",
+  "a": "10100",
+  "km": 14.9,
+  "sinuosidad": 1.1,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10100",
+  "a": "10101",
+  "km": 3.73,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10101",
+  "a": "10103",
+  "km": 6.14,
+  "sinuosidad": 1.09,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10103",
+  "a": "10104",
+  "km": 3.84,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10104",
+  "a": "10200",
+  "km": 3.83,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10200",
+  "a": "10201",
+  "km": 2.22,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 8,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10201",
+  "a": "10202",
+  "km": 1.62,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8a",
+  "de": "10202",
+  "a": "10203",
+  "km": 8.59,
+  "sinuosidad": 1.11,
+  "guiado": true,
+  "dist_max_shape_m": 5,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "12006",
+  "a": "12005",
+  "km": 5.43,
+  "sinuosidad": 1.58,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "12005",
+  "a": "12004",
+  "km": 3.64,
+  "sinuosidad": 1.19,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "12004",
+  "a": "12002",
+  "km": 6.02,
+  "sinuosidad": 1.56,
+  "guiado": true,
+  "dist_max_shape_m": 12,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "12002",
+  "a": "12001",
+  "km": 2.7,
+  "sinuosidad": 1.11,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "12001",
+  "a": "10200",
+  "km": 1.94,
+  "sinuosidad": 1.09,
+  "guiado": true,
+  "dist_max_shape_m": 2,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "10200",
+  "a": "10104",
+  "km": 3.83,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 4,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "10104",
+  "a": "10103",
+  "km": 3.84,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "10103",
+  "a": "10101",
+  "km": 6.14,
+  "sinuosidad": 1.09,
+  "guiado": true,
+  "dist_max_shape_m": 11,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "10101",
+  "a": "10100",
+  "km": 3.73,
+  "sinuosidad": 1.05,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "10100",
+  "a": "97100",
+  "km": 14.9,
+  "sinuosidad": 1.1,
+  "guiado": true,
+  "dist_max_shape_m": 32,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "97100",
+  "a": "97200",
+  "km": 1.6,
+  "sinuosidad": 1.06,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "97200",
+  "a": "97201",
+  "km": 2.1,
+  "sinuosidad": 1.18,
+  "guiado": true,
+  "dist_max_shape_m": 3,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "97201",
+  "a": "17000",
+  "km": 2.77,
+  "sinuosidad": 1.3,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C8b",
+  "de": "17000",
+  "a": "10200",
+  "km": 38.74,
+  "sinuosidad": 1.19,
+  "guiado": true,
+  "dist_max_shape_m": 14,
+  "geometria": "osm"
+ },
+ {
+  "linea": "C9",
+  "de": "12006",
+  "a": "12020",
+  "km": 11.06,
+  "sinuosidad": 1.5,
+  "guiado": true,
+  "dist_max_shape_m": 43075,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "C9",
+  "de": "12023",
+  "a": "12020",
+  "km": 7.08,
+  "sinuosidad": 1.31,
+  "guiado": true,
+  "dist_max_shape_m": 4991,
+  "geometria": "shape_oficial"
+ },
+ {
+  "linea": "3",
+  "de": "par_4_53",
+  "a": "par_4_52",
+  "km": 0.57,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 24
+ },
+ {
+  "linea": "3",
+  "de": "par_4_52",
+  "a": "par_4_51",
+  "km": 0.45,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 21
+ },
+ {
+  "linea": "3",
+  "de": "par_4_51",
+  "a": "par_4_50",
+  "km": 0.45,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 10
+ },
+ {
+  "linea": "3",
+  "de": "par_4_50",
+  "a": "par_4_49",
+  "km": 0.59,
+  "sinuosidad": 0.99,
+  "guiado": true,
+  "dist_max_shape_m": 25
+ },
+ {
+  "linea": "3",
+  "de": "par_4_49",
+  "a": "par_4_48",
+  "km": 0.43,
+  "sinuosidad": 1.01,
+  "guiado": true,
+  "dist_max_shape_m": 42
+ },
+ {
+  "linea": "3",
+  "de": "par_4_48",
+  "a": "par_4_47",
+  "km": 0.96,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 94
+ },
+ {
+  "linea": "3",
+  "de": "par_4_47",
+  "a": "par_4_46",
+  "km": 0.42,
+  "sinuosidad": 1.03,
+  "guiado": true,
+  "dist_max_shape_m": 56
+ },
+ {
+  "linea": "3",
+  "de": "par_4_46",
+  "a": "par_4_45",
+  "km": 0.83,
+  "sinuosidad": 1.11,
+  "guiado": true,
+  "dist_max_shape_m": 166
+ },
+ {
+  "linea": "3",
+  "de": "par_4_45",
+  "a": "par_4_44",
+  "km": 0.4,
+  "sinuosidad": 1.13,
+  "guiado": true,
+  "dist_max_shape_m": 75
+ },
+ {
+  "linea": "3",
+  "de": "par_4_44",
+  "a": "par_4_43",
+  "km": 0.97,
+  "sinuosidad": 0.99,
+  "guiado": true,
+  "dist_max_shape_m": 23
+ },
+ {
+  "linea": "3",
+  "de": "par_4_43",
+  "a": "par_4_267",
+  "km": 0.92,
+  "sinuosidad": 1.12,
+  "guiado": true,
+  "dist_max_shape_m": 195
+ },
+ {
+  "linea": "3",
+  "de": "par_4_267",
+  "a": "par_4_268",
+  "km": 1.02,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 11
+ },
+ {
+  "linea": "3",
+  "de": "par_4_268",
+  "a": "par_4_269",
+  "km": 0.58,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 12
+ },
+ {
+  "linea": "3",
+  "de": "par_4_269",
+  "a": "par_4_270",
+  "km": 1.15,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 21
+ },
+ {
+  "linea": "3",
+  "de": "par_4_270",
+  "a": "par_4_271",
+  "km": 0.97,
+  "sinuosidad": 1.0,
+  "guiado": true,
+  "dist_max_shape_m": 16
+ },
+ {
+  "linea": "3",
+  "de": "par_4_271",
+  "a": "par_4_272",
+  "km": 1.06,
+  "sinuosidad": 1.02,
+  "guiado": true,
+  "dist_max_shape_m": 87
+ },
+ {
+  "linea": "3",
+  "de": "par_4_272",
+  "a": "par_4_273",
+  "km": 1.71,
+  "sinuosidad": 1.07,
+  "guiado": true,
+  "dist_max_shape_m": 186
+ },
+ {
+  "linea": "3",
+  "de": "par_4_273",
+  "a": "par_4_228",
+  "km": 3.43,
+  "sinuosidad": 1.36,
+  "guiado": true,
+  "dist_max_shape_m": 895
+ }
+]

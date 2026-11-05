@@ -1,0 +1,8 @@
+[
+  {"a": "est_4_11", "b": "cer_18101", "nota": "Metro Gran Vía (L1, L5) ↔ Cercanías Sol: túnel de 85 m sin salir a superficie (2021)",
+   "fuente": "Comunidad de Madrid, nota 16/12/2020 'Reabriremos la nueva estación de Metro de Gran Vía' https://www.comunidad.madrid/noticias/2020/12/16/reabriremos-nueva-estacion-metro-gran-via-proximo-verano"},
+  {"a": "par_4_92", "b": "est_4_46", "nota": "Acacias (L5) ↔ Embajadores (L3): estación conjunta Acacias-Embajadores unida por pasillo",
+   "fuente": "Wikipedia, 'Acacias-Embajadores (Madrid Metro)' https://en.wikipedia.org/wiki/Acacias_(Madrid_Metro) (fuente secundaria)"},
+  {"a": "est_4_25", "b": "cer_70001", "nota": "Sierra de Guadalupe (L1) ↔ Cercanías Vallecas (andenes a ~25 m)",
+   "fuente": "Wikipedia, tablas de estaciones C-2/C-7 'Madrid Metro line 1 at Sierra de Guadalupe station' https://en.wikipedia.org/wiki/C-2_(Cercan%C3%ADas_Madrid) (fuente secundaria)"}
+]

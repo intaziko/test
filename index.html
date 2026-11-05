@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa 1 · Red de transporte de Madrid</title>
+  <meta name="description" content="Mapa geográfico de Metro, Metro Ligero y Cercanías de Madrid con municipios y los 21 distritos." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ed1c24'/%3E%3Cpath d='M8 23V9l8 9 8-9v14' stroke='white' stroke-width='3.4' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span><span>Transporte de Madrid <span class="t2 muted">· cartografía geográfica</span></span></div>
+    <nav class="tabs" aria-label="Mapas">
+      <a class="tab" href="./index.html" aria-current="page"><span class="lg">Mapa 1 · </span>Red completa</a>
+      <a class="tab" href="./ruta.html"><span class="lg">Mapa 2 · </span>Ruta<span class="lg"> a Cristo Social Club</span></a>
+    </nav>
+    <span class="spacer"></span>
+    <button class="linkbtn" id="btn-fuentes">Fuentes y fechas</button>
+  </header>
+
+  <div class="main">
+    <aside class="side" id="side">
+      <button class="sidetoggle" id="sidetoggle">Capas, líneas y búsqueda</button>
+      <div class="section">
+        <div class="search">
+          <input id="q" type="search" placeholder="Buscar estación, municipio o distrito" autocomplete="off" aria-label="Buscar" />
+          <div class="results" id="results" role="listbox"></div>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Redes y capas</h2>
+        <div class="toggles" id="toggles">
+          <label class="toggle"><input type="checkbox" data-net="metro" checked /><span class="swatch" style="border-color:#ed1c24"></span>Metro de Madrid</label>
+          <label class="toggle"><input type="checkbox" data-net="ml" checked /><span class="swatch ml" style="border-color:#3a7dda"></span>Metro Ligero / Tranvía</label>
+          <label class="toggle"><input type="checkbox" data-net="cercanias" checked /><span class="swatch cer" style="border-color:#2c2a86"></span>Cercanías Madrid (Renfe)</label>
+          <label class="toggle"><input type="checkbox" data-layer="distritos" checked /><span class="swatch area"></span>Distritos de Madrid (21)</label>
+          <label class="toggle"><input type="checkbox" data-layer="municipios" checked /><span class="swatch muni"></span>Límites municipales</label>
+          <label class="toggle"><input type="checkbox" data-layer="avisos" checked /><span class="swatch" style="border-top:4px dashed #c9472b"></span>Avisos de servicio</label>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Líneas</h2>
+        <div class="modes" id="chipmode" style="grid-template-columns:1fr 1fr">
+          <button class="mode" data-m="sel" aria-pressed="true">Resaltar</button>
+          <button class="mode" data-m="vis" aria-pressed="false">Mostrar / ocultar</button>
+        </div>
+        <div id="chips"></div>
+      </div>
+      <div class="section">
+        <h2>Avisos de servicio</h2>
+        <div id="avisos"></div>
+      </div>
+      <div class="section">
+        <h2>Leyenda</h2>
+        <div class="legend" id="legend">
+          <div class="row"><span class="sym"><span class="swatch" style="border-color:#ed1c24;width:30px"></span></span>Línea de Metro (color oficial)</div>
+          <div class="row"><span class="sym"><span class="swatch ml" style="border-color:#3a7dda;width:30px;border-top:5px double #3a7dda"></span></span>Metro Ligero / Tranvía (doble trazo)</div>
+          <div class="row"><span class="sym"><span class="swatch cer" style="border-color:#00943d;width:30px"></span></span>Cercanías (trazo con traviesas)</div>
+          <div class="row"><span class="sym"><span class="dot"></span></span>Estación de Metro / Metro Ligero</div>
+          <div class="row"><span class="sym"><span class="sq"></span></span>Estación de Cercanías</div>
+          <div class="row"><span class="sym"><span class="dot tr"></span></span>Transbordo entre líneas</div>
+          <div class="row"><span class="sym"><span class="capsule"></span></span>Andenes de una misma estación (pasillo)</div>
+          <div class="row"><span class="sym"><span class="dash"></span></span>Correspondencia entre redes</div>
+          <div class="row"><span class="sym"><span class="closed"></span></span>Tramo con avisos / sin servicio</div>
+          <div class="row"><span class="sym"><span class="swatch area" style="width:30px"></span></span>Distrito de Madrid · <span class="swatch muni" style="width:20px;display:inline-block"></span> límite municipal</div>
+        </div>
+        <p class="muted" style="margin:10px 0 0">Trazados y estaciones en su posición geográfica real (no es un plano esquemático). Datos a 5/11/2026: ver «Fuentes y fechas».</p>
+      </div>
+    </aside>
+
+    <section class="map">
+      <div id="map" role="region" aria-label="Mapa de la red de transporte"></div>
+      <div class="mapbtns">
+        <button class="mapbtn" id="btn-madrid">Centrar en Madrid capital</button>
+        <button class="mapbtn" id="btn-all">Vista completa</button>
+      </div>
+      <div class="info" id="info"><button class="close" id="info-x" aria-label="Cerrar">×</button><div id="info-c"></div></div>
+      <div class="printframe" id="printframe"></div>
+    </section>
+  </div>
+</div>
+
+<dialog id="fuentes">
+  <div class="dh"><h3>Fuentes, fechas y limitaciones</h3><button class="linkbtn x">Cerrar</button></div>
+  <div class="db" id="fuentes-c"></div>
+</dialog>
+<script type="module" src="./src/mapa1.js"></script>
+</body>
+</html>

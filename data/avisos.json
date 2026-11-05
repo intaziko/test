@@ -1,0 +1,61 @@
+{
+  "consultado": "2026-11-05",
+  "nota": "Avisos recopilados de fuentes públicas el 05/11/2026. No es información en tiempo real: consulta metromadrid.es, crtm.es y renfe.com antes de viajar.",
+  "avisos": [
+    {
+      "id": "l10-nm-cuzco",
+      "red": "metro", "linea": "10", "estado": "vigente",
+      "titulo": "L10: sin servicio entre Nuevos Ministerios y Cuzco",
+      "detalle": "Tramo cortado desde el 28/03/2026 por las obras de la nueva estación Bernabéu; autobús sustitutivo gratuito de EMT. Reapertura del tramo prevista a finales de diciembre de 2026, sin parada en Santiago Bernabéu hasta el primer trimestre de 2027.",
+      "tramo": ["Nuevos Ministerios", "Cuzco"], "via": null,
+      "estaciones_cerradas": ["Santiago Bernabéu"],
+      "fuentes": [
+        {"titulo": "El Independiente, 06/03/2026", "url": "https://www.elindependiente.com/espana/madrid/2026/03/06/la-estacion-de-metro-santiago-bernabeu-cerrara-desde-el-28-de-marzo-hasta-finales-de-ano-por-obras/"},
+        {"titulo": "Que.madrid, 27/10/2026", "url": "https://www.que.madrid/2026/10/27/metro-santiago-bernabeu-obras-linea-10-599769/"}
+      ]
+    },
+    {
+      "id": "l6-corte-noviembre",
+      "red": "metro", "linea": "6", "estado": "programado",
+      "titulo": "L6: corte Arganzuela-Planetario ↔ Ciudad Universitaria (7–9 y 21–22 nov 2026)",
+      "detalle": "Sin trenes por el tramo de Avenida de América durante las pruebas de conducción automática. Ambas estaciones abiertas como cabeceras provisionales; autobús especial gratuito SE6.",
+      "tramo": ["Arganzuela-Planetario", "Ciudad Universitaria"], "via": "Avenida de América",
+      "estaciones_cerradas": [],
+      "fuentes": [
+        {"titulo": "Metro de Madrid, nota de prensa 03/11/2026", "url": "https://www.metromadrid.es/es/nota-de-prensa/2026-11-03/metro-de-madrid-suspendera-el-servicio-en-linea-6-entre-las-estaciones-de-arganzuela-planetario-y-ciudad-universitaria-durante-dos-fines-de-semana-de-noviembre"}
+      ]
+    },
+    {
+      "id": "l6-cierre-23h",
+      "red": "metro", "linea": "6", "estado": "vigente",
+      "titulo": "L6: cierra a las 23:00 de domingo a jueves",
+      "detalle": "Desde el 11/01/2026, por la instalación de puertas de andén para la automatización. Autobuses gratuitos SC1 (sentido Andén 1) y SC2 (sentido Andén 2) de 23:00 a 1:30. Viernes y sábado, horario habitual.",
+      "tramo": null, "via": null, "estaciones_cerradas": [],
+      "fuentes": [
+        {"titulo": "Telemadrid, 11/01/2026", "url": "https://www.telemadrid.es/noticias/madrid/Este-domingo-comienza-el-cierre-anticipado-de-la-Linea-6-a-las-2300-horas-0-2851814792--20260111083956.html"},
+        {"titulo": "CRTM, tabla de paradas del SC1", "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/tabla-de-paradas-del-sc1-por-cierre-anticipado-de-la-linea-6-de-metro/"},
+        {"titulo": "CRTM, tabla de paradas del SC2", "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/tabla-de-paradas-del-sc2-por-cierre-anticipado-de-la-linea-6-de-metro/"}
+      ]
+    },
+    {
+      "id": "c5-adif-noviembre",
+      "red": "cercanias", "linea": "C5", "estado": "anunciado",
+      "titulo": "C-5: obras de Adif anunciadas entre Villaverde Alto y Atocha (desde el 11 nov 2026)",
+      "detalle": "Anunciadas por el Ayuntamiento al presentar el corte A-5/M-30; afectarían al ramal Atocha–Humanes con servicio hasta Villaverde Alto. Pendiente de confirmación oficial de Renfe/Adif.",
+      "tramo": ["Madrid-Villaverde Alto", "Madrid-Atocha Cercanías"], "via": null, "estaciones_cerradas": [],
+      "fuentes": [
+        {"titulo": "El Diario de Madrid, 05/11/2026", "url": "https://www.eldiariodemadrid.es/articulo/movilidad/corte-a5-m30-10-noviembre-23-diciembre-2026-desvios-alternativas/20261105084257146088.html"}
+      ]
+    },
+    {
+      "id": "renfe-huelga",
+      "red": "cercanias", "linea": null, "estado": "anunciado",
+      "titulo": "Cercanías: huelga convocada 10 y 12 nov (Semaf) y huelga general el 11 nov",
+      "detalle": "Posibles servicios mínimos en Cercanías esos días.",
+      "tramo": null, "via": null, "estaciones_cerradas": [],
+      "fuentes": [
+        {"titulo": "Zona Retiro, noviembre 2026", "url": "https://zonaretiro.com/transporte/huelga-cercanias-madrid-noviembre-2026/"}
+      ]
+    }
+  ]
+}
