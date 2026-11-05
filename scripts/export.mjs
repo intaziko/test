@@ -18,6 +18,8 @@ const views = [
   { file: "mapa1-madrid-centro-A3", path: "index.html?print=a3-centro" },
   { file: "mapa2-ruta-IDA-A3", path: "ruta.html?print=a3&modo=ida" },
   { file: "mapa2-ruta-VUELTA-A3", path: "ruta.html?print=a3&modo=vuelta" },
+  { file: "finde-7nov-IDA-A3", path: "finde.html?print=a3&modo=ida" },
+  { file: "finde-8nov-VUELTA-A3", path: "finde.html?print=a3&modo=vuelta" },
 ];
 const errors = [];
 for (const v of views) {
@@ -45,6 +47,7 @@ async function merge(name, files) {
 }
 await merge("MAPA1-red-transporte-Madrid-A3", ["mapa1-madrid-metropolitano-A3", "mapa1-madrid-centro-A3"]);
 await merge("MAPA2-ruta-Cristo-Social-Club-IDA-y-VUELTA-A3", ["mapa2-ruta-IDA-A3", "mapa2-ruta-VUELTA-A3"]);
+await merge("MAPA2-finde-7-8-nov-L6-cortada-IDA-y-VUELTA-A3", ["finde-7nov-IDA-A3", "finde-8nov-VUELTA-A3"]);
 await browser.close();
 await new Promise((r) => server.httpServer.close(r));
 if (errors.length) { console.error(errors.join("\n")); process.exit(1); }

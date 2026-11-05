@@ -583,6 +583,24 @@ IT["vuelta"].append(build("vuelta", "Recomendada", "Con metro en servicio: hasta
 IT["vuelta"].append(build("vuelta_corte_l6", "Si la L6 está cortada (7–9 y 21–22 nov 2026)", "Fechas del corte parcial de la L6",
                           "4_I13", "06:15", ("venue",), ("station", ORIG_SID), CORTE_L6, notas=[nota_corte]))
 
+# ---- sección independiente «Este fin de semana»: sábado 7 (IDA ≈ 21:00) y domingo 8 (VUELTA ≈ 6:00), con la L6 cortada
+R = {ln: PAT[next(k for k in PAT if k[0] == ln)]["route"] for ln in ("11", "6", "5")}
+h = lambda sv, t: " · ".join(f"L{ln} cada {headway(R[ln], sv, t):g} min" for ln in R)  # noqa: E731
+nota_9 = f"Si la ida es a las 9:00 de la mañana el recorrido es el mismo; frecuencias del sábado a esa hora: {h('4_I12', '09:00')} (a las 21:00: {h('4_I12', '21:00')})."
+nota_6 = (f"El metro abre a las 6:00 y a primera hora del domingo los trenes pasan más espaciados ({h('4_I13', '06:05')}). "
+          "Antes de las 6:00 no hay metro: búho N2 hasta Cibeles y N17 hasta Metro Carabanchel Alto (ver Mapa 2, VUELTA de madrugada).")
+nota_check = "Confirma la víspera en metromadrid.es (avisos de la L6) y en la app de Metro: los horarios son programados, no en tiempo real."
+FINDE = {
+    "ida": [build("finde_ida", "Sábado 7 de noviembre · salida ≈ 21:00", "L6 cortada entre Arganzuela-Planetario y Ciudad Universitaria",
+                  "4_I12", "21:00", ("station", ORIG_SID), ("venue",), CORTE_L6, notas=[nota_corte, nota_9, nota_check])],
+    "vuelta": [build("finde_vuelta", "Domingo 8 de noviembre · salida ≈ 6:00", "L6 cortada; el metro abre a las 6:00",
+                     "4_I13", "06:05", ("venue",), ("station", ORIG_SID), CORTE_L6, notas=[nota_corte, nota_6, nota_check])],
+}
+for x in FINDE["ida"] + FINDE["vuelta"]:  # el recorrido no puede usar el tramo cortado de la L6
+    for p in x["pasos"]:
+        if p["tipo"] == "metro" and p["linea"] == "6":
+            assert not any(("6", frozenset(pr)) in CORTE_L6 for pr in zip(p["ids"], p["ids"][1:])), x["id"]
+
 
 # ---- escenarios con autobús (GTFS EMT): IDA domingo–jueves desde las 23:00 (SC1) y VUELTA nocturna (N2 + N17)
 def bus_itinerary(it_id, titulo, cuando, steps, notas):
@@ -693,7 +711,12 @@ for k, its in IT.items():
 rec_ida = IT["ida"][0]
 assert [p["linea"] for p in rec_ida["pasos"] if p["tipo"] == "metro"][0] == "11"
 
-write_json(OUT / "itinerarios.json", dict(origen=ORIG, destino=DEST, comparativa_estaciones=comp, itinerarios=IT,
+FINDE_INFO = dict(titulo="Este fin de semana: L6 cortada", fechas="Sábado 7 y domingo 8 de noviembre de 2026",
+                  resumen="La Línea 6 no circula entre Arganzuela-Planetario y Ciudad Universitaria (por Méndez Álvaro, Diego de León y "
+                          "Avenida de América) del 7 al 9 de noviembre. La ruta habitual por Diego de León no sirve: se va por Oporto y la Línea 5 hasta Núñez de Balboa.",
+                  fuente="Metro de Madrid, nota de prensa 03/11/2026",
+                  url="https://www.metromadrid.es/es/nota-de-prensa/2026-11-03/metro-de-madrid-suspendera-el-servicio-en-linea-6-entre-las-estaciones-de-arganzuela-planetario-y-ciudad-universitaria-durante-dos-fines-de-semana-de-noviembre")
+write_json(OUT / "itinerarios.json", dict(origen=ORIG, destino=DEST, comparativa_estaciones=comp, itinerarios=IT, finde=FINDE, finde_info=FINDE_INFO,
                                           supuestos=dict(velocidad_pie_kmh=WALK * 60 / 1000, escaleras_min=STAIRS_MIN, rodeo_pasillos=INDOOR_DETOUR,
                                                          espera="mitad del intervalo de paso (frequencies.txt) en la franja del escenario")))
 write_json(OUT / "itinerarios.geojson", {"type": "FeatureCollection", "features": FEATURES})

@@ -98,6 +98,14 @@ vr = it["itinerarios"]["vuelta"][0]
 l6v = next(p for p in vr["pasos"] if p["tipo"] == "metro" and p["linea"] == "6")
 check(l6v["hacia"] == "Andén 2" and l6v["paradas"][1] == "Manuel Becerra", "VUELTA: L6 por Andén 2 (Manuel Becerra…) y L11 dirección La Fortuna")
 
+fi, fv = it["finde"]["ida"][0], it["finde"]["vuelta"][0]
+check([p["linea"] for p in fi["pasos"] if p["tipo"] == "metro"] == ["11", "6", "5"] and fi["pasos"][-2]["hasta"].startswith("Cristo"),
+      "Este finde · IDA (sáb. 7, L6 cortada): L11 → L6 Andén 2 hasta Oporto → L5 hasta Núñez de Balboa")
+check([p["linea"] for p in fv["pasos"] if p["tipo"] == "metro"] == ["5", "6", "11"], "Este finde · VUELTA (dom. 8, 6:00): L5 → L6 Andén 1 → L11")
+corte = {"Méndez Álvaro", "Pacífico", "Diego de León", "Avenida de América", "Nuevos Ministerios"}
+check(not any(set(p["paradas"]) & corte for x in (fi, fv) for p in x["pasos"] if p["tipo"] == "metro" and p["linea"] == "6"),
+      "Este finde · ningún tramo de L6 pasa por el tramo cortado")
+
 # ------------------------------------------------------------------ informe
 md.append(f"# Validación de datos\n\nGenerado por `scripts/validate.py` · datos consultados el {fu['consulta']}.\n")
 md.append("## Resultado\n\n" + "\n".join(f"- ✅ {t}" for t in ok) + "\n")
@@ -126,6 +134,9 @@ md.append("## Mapa 2 · itinerarios\n\n" + "\n".join(
     f"- **{modo.upper()} · {x['titulo']}** ({x['cuando']}): ≈ {x['total_min']} min, {x['a_pie_m']} m a pie, {x['transbordos']} transbordo(s) — " +
     " → ".join(p.get("linea") and f"{p['tipo']} {p['linea']} ({p['desde']}→{p['hasta']})" or p["tipo"] for p in x["pasos"])
     for modo, its in it["itinerarios"].items() for x in its) + "\n")
+md.append("## Sección «Este finde» (7–8 nov 2026, L6 cortada)\n\n" + "\n".join(
+    f"- **{x['titulo']}**: ≈ {x['total_min']} min, {x['a_pie_m']} m a pie, {x['transbordos']} transbordos — " +
+    " → ".join(p.get("linea") and f"{p['tipo']} {p['linea']} ({p['desde']}→{p['hasta']})" or p["tipo"] for p in x["pasos"]) for x in (fi, fv)) + "\n")
 s = it["supuestos"]
 md.append(f"Supuestos: a pie {s['velocidad_pie_kmh']} km/h por la red peatonal OSM; espera = {s['espera']}; pasillos = distancia andén–acceso × {s['rodeo_pasillos']} + {s['escaleras_min']} min.\n")
 md.append("## Comprobaciones técnicas\n\nVer `npm run check` (consola del navegador sin errores en escritorio y móvil, buscador y capas) y `npm run build`.\n")

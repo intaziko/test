@@ -5,7 +5,9 @@ import { renderSources } from "./sources.js";
 const zi = (...s) => ["interpolate", ["exponential", 1.4], ["zoom"], ...s];
 const [data, geo, red, avisos, fuentes, andenes] = await Promise.all(
   ["itinerarios.json", "itinerarios.geojson", "red.json", "avisos.json", "fuentes.json", "andenes.geojson"].map((f) => getJSON("data/" + f)));
-const EST = red.estaciones, LINES = red.lineas, IT = data.itinerarios;
+// finde.html (data-fijo="finde") usa la misma interfaz con el par de itinerarios del fin de semana del corte de la L6
+const FIJO = document.body.dataset.fijo;
+const EST = red.estaciones, LINES = red.lineas, IT = FIJO ? data[FIJO] : data.itinerarios;
 renderSources(document.getElementById("fuentes-c"), fuentes, avisos);
 document.getElementById("btn-fuentes").onclick = () => document.getElementById("fuentes").showModal();
 document.querySelector("#fuentes .x").onclick = () => document.getElementById("fuentes").close();
@@ -68,8 +70,12 @@ map.on("load", async () => {
 function render() {
   const it = cur();
   document.querySelectorAll("#modes .mode").forEach((b) => b.setAttribute("aria-pressed", b.dataset.m === state.modo));
-  document.getElementById("scen").innerHTML = IT[state.modo].map((x, i) => `<button data-i="${i}" aria-pressed="${i === state.esc}"><span class="t">${i === 0 ? "★ " : ""}${esc(x.titulo)}</span><span class="w">${esc(x.cuando)} · ≈ ${x.total_min} min</span></button>`).join("");
-  document.getElementById("r-title").textContent = state.modo === "ida" ? "IDA · Carabanchel Alto → Cristo Social Club" : "VUELTA · Cristo Social Club → Carabanchel Alto";
+  if (FIJO) {
+    const fi = data[FIJO + "_info"];
+    document.getElementById("banner").innerHTML = `<b>${esc(fi.titulo)} · ${esc(fi.fechas)}</b>${esc(fi.resumen)} <a href="${fi.url}" target="_blank" rel="noopener">${esc(fi.fuente)}</a>`;
+  }
+  document.getElementById("scen").innerHTML = IT[state.modo].length < 2 ? "" : IT[state.modo].map((x, i) => `<button data-i="${i}" aria-pressed="${i === state.esc}"><span class="t">${i === 0 ? "★ " : ""}${esc(x.titulo)}</span><span class="w">${esc(x.cuando)} · ≈ ${x.total_min} min</span></button>`).join("");
+  document.getElementById("r-title").textContent = (state.modo === "ida" ? "IDA · Carabanchel Alto → Cristo Social Club" : "VUELTA · Cristo Social Club → Carabanchel Alto") + (FIJO ? ` · ${it.titulo}` : "");
   document.getElementById("summary").innerHTML = `
     <div class="metric"><b>≈ ${it.total_min} min</b><span>tiempo total estimado</span></div>
     <div class="metric"><b>${it.a_pie_m} m</b><span>a pie por la calle</span></div>
@@ -78,7 +84,8 @@ function render() {
   document.getElementById("notes").innerHTML = [...it.notas.map((n) => `<div class="note warn">${esc(n)}</div>`),
     `<div class="note">Tiempos orientativos: trayectos entre estaciones del GTFS oficial; espera = mitad del intervalo de paso en la franja indicada; a pie a ${data.supuestos.velocidad_pie_kmh} km/h por la red peatonal de OSM; pasillos de estación estimados (distancia × ${data.supuestos.rodeo_pasillos} + ${data.supuestos.escaleras_min} min). No es información en tiempo real.</div>`].join("");
   renderDest();
-  renderCmp();
+  if (FIJO) document.getElementById("cmp").innerHTML = `<p class="small">Ruta habitual (sin cortes) y demás escenarios: <a href="./ruta.html">Mapa 2 · Ruta</a>.</p>`;
+  else renderCmp();
   drawRoute(it);
 }
 
@@ -206,7 +213,7 @@ function printFrame() {
   const it = cur();
   document.getElementById("printframe").innerHTML = `
     <div class="pf-title"><h1>${state.modo === "ida" ? "IDA · Metro Carabanchel Alto → Cristo Social Club" : "VUELTA · Cristo Social Club → Metro Carabanchel Alto"}</h1>
-      <p>${esc(it.titulo)} — ${esc(it.cuando)} · ≈ ${it.total_min} min · ${it.a_pie_m} m a pie · ${it.transbordos} transbordo(s)</p></div>
+      <p>${FIJO ? "<b>Fin de semana 7–8 nov 2026 · L6 cortada.</b> " : ""}${esc(it.titulo)} — ${esc(it.cuando)} · ≈ ${it.total_min} min · ${it.a_pie_m} m a pie · ${it.transbordos} transbordo(s)</p></div>
     <div class="pf-legend"><div class="legend">
       <div class="row"><span class="sym"><span class="swatch" style="border-top:6px solid #009b3a;box-shadow:0 0 0 4px rgba(230,0,126,.25)"></span></span>Tramo en metro/autobús (color oficial de la línea, halo del itinerario)</div>
       <div class="row"><span class="sym"><span class="swatch" style="border-top:4px dotted #e6007e;width:30px"></span></span>Recorrido a pie (red peatonal OSM)</div>

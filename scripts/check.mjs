@@ -65,6 +65,16 @@ for (const [label, opts] of [["escritorio", { viewport: { width: 1440, height: 9
   ok(feats > 0, `[${label}] recorrido dibujado en el mapa`);
   ok(!r.errs.length, `[${label}] Mapa 2 sin errores de consola ${r.errs.join(" | ")}`);
   await r.ctx.close();
+  // ---------------- Este finde (L6 cortada)
+  const f = await open("finde.html", opts);
+  const ida = await f.page.textContent("#steps");
+  ok(ida.includes("Oporto") && ida.includes("Núñez de Balboa") && !ida.includes("Diego de León"), `[${label}] Este finde · IDA por Oporto y L5 hasta Núñez de Balboa (sin Diego de León)`);
+  ok((await f.page.textContent("#banner")).includes("7 y domingo 8"), `[${label}] Este finde · aviso del corte con fechas`);
+  await f.page.click('#modes [data-m="vuelta"]');
+  await f.page.waitForTimeout(800);
+  ok((await f.page.textContent("#steps")).includes("Casa de Campo"), `[${label}] Este finde · VUELTA L5 dirección Casa de Campo`);
+  ok(!f.errs.length, `[${label}] Este finde sin errores de consola ${f.errs.join(" | ")}`);
+  await f.ctx.close();
 }
 await browser.close();
 await new Promise((r) => server.httpServer.close(r));

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Este finde · Ruta con la L6 cortada (7–8 nov)</title>
+  <meta name="description" content="Itinerario en transporte público entre la estación Carabanchel Alto y Cristo Social Club (C/ Juan Bravo 35), ida y vuelta." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e6007e'/%3E%3Cpath d='m16 6 3 6.3 6.9.9-5 4.8 1.2 6.8L16 21.6l-6.1 3.2 1.2-6.8-5-4.8 6.9-.9z' fill='white'/%3E%3C/svg%3E" />
+</head>
+<body class="route" data-fijo="finde">
+<div class="app">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span><span>Transporte de Madrid <span class="t2 muted">· cartografía geográfica</span></span></div>
+    <nav class="tabs" aria-label="Mapas">
+      <a class="tab" href="./index.html"><span class="lg">Mapa 1 · </span>Red completa</a>
+      <a class="tab" href="./ruta.html"><span class="lg">Mapa 2 · </span>Ruta<span class="lg"> a Cristo Social Club</span></a>
+      <a class="tab" href="./finde.html" aria-current="page">Este finde<span class="lg"> · 7–8 nov</span></a>
+    </nav>
+    <span class="spacer"></span>
+    <button class="linkbtn" id="btn-fuentes">Fuentes y fechas</button>
+  </header>
+
+  <div class="main">
+    <aside class="side" id="side">
+      <button class="sidetoggle noprint" id="sidetoggle">Itinerario paso a paso</button>
+      <div class="section">
+        <div class="aviso programado" id="banner"></div>
+        <h2 id="r-title">Carabanchel Alto ⇄ Cristo Social Club</h2>
+        <div class="modes noprint" id="modes">
+          <button class="mode" data-m="ida" aria-pressed="true">IDA<small>Sábado 7 · ≈ 21:00</small></button>
+          <button class="mode" data-m="vuelta" aria-pressed="false">VUELTA<small>Domingo 8 · ≈ 6:00</small></button>
+        </div>
+        <div class="scen noprint" id="scen"></div>
+        <div class="summary" id="summary"></div>
+      </div>
+      <div class="section"><ol class="steps" id="steps"></ol><div id="notes"></div></div>
+      <div class="section noprint" id="dest"></div>
+      <div class="section noprint" id="cmp"></div>
+    </aside>
+    <section class="map">
+      <div id="map" role="region" aria-label="Mapa del itinerario"></div>
+      <div class="mapbtns">
+        <button class="mapbtn" id="btn-route">Ver recorrido completo</button>
+        <button class="mapbtn" id="btn-dest">Llegada a la sala</button>
+      </div>
+      <div class="printframe" id="printframe"></div>
+    </section>
+  </div>
+</div>
+<dialog id="fuentes">
+  <div class="dh"><h3>Fuentes, fechas y limitaciones</h3><button class="linkbtn x">Cerrar</button></div>
+  <div class="db" id="fuentes-c"></div>
+</dialog>
+<script type="module" src="./src/mapa2.js"></script>
+</body>
+</html>

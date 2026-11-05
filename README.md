@@ -6,10 +6,11 @@ Dos mapas web interactivos, independientes y enlazados entre sí, construidos co
 | | Página | Qué muestra |
 |---|---|---|
 | **Mapa 1 · Red completa** | `index.html` | Comunidad de Madrid centrada en la capital: 179 municipios (Madrid, Alcobendas, Torrejón de Ardoz, Getafe y Móstoles destacados), los 21 distritos, Metro (1–12, R y tramos 7B/9B/10B), Metro Ligero (ML1–ML4) y Cercanías (C1–C10) con trazado y estaciones en su posición real, transbordos, correspondencias entre redes y avisos de servicio. Buscador, capas, selección de líneas y fichas de estación. |
+| **Este finde · 7–8 nov** | `finde.html` | Sección independiente para el fin de semana del corte de la L6: IDA el sábado 7 (≈ 21:00, también válida a las 9:00) y VUELTA el domingo 8 (≈ 6:00) por Oporto y la L5 hasta Núñez de Balboa, con su propio aviso y exportación A3. |
 | **Mapa 2 · Ruta** | `ruta.html` | Itinerario Metro **Carabanchel Alto ⇄ Cristo Social Club** (C/ de Juan Bravo, 35) en modo **IDA** y **VUELTA**, con paso a paso, andén/dirección de cada tren, salida de estación, recorrido a pie calle a calle, comparativa de estaciones y alternativas (corte de la L6, cierre nocturno de la L6, búhos). |
 
 Exportaciones A3 horizontal listas en [`exports/`](exports/): `MAPA1-red-transporte-Madrid-A3.pdf` (vista metropolitana + detalle del centro),
-`MAPA2-ruta-Cristo-Social-Club-IDA-y-VUELTA-A3.pdf` (una página por sentido) y los PNG equivalentes (4761 × 3369 px, ≈ 290 ppp).
+`MAPA2-ruta-Cristo-Social-Club-IDA-y-VUELTA-A3.pdf` (una página por sentido), `MAPA2-finde-7-8-nov-L6-cortada-IDA-y-VUELTA-A3.pdf` y los PNG equivalentes (4761 × 3369 px, ≈ 290 ppp).
 
 ## Resultado del Mapa 2 (datos a 5/11/2026)
 

@@ -76,6 +76,9 @@ Generado por `scripts/validate.py` · datos consultados el 2026-11-05.
 - ✅ IDA recomendada: L11 → L6
 - ✅ L6 desde Plaza Elíptica por Andén 1 (Usera, Legazpi…) hasta Diego de León
 - ✅ VUELTA: L6 por Andén 2 (Manuel Becerra…) y L11 dirección La Fortuna
+- ✅ Este finde · IDA (sáb. 7, L6 cortada): L11 → L6 Andén 2 hasta Oporto → L5 hasta Núñez de Balboa
+- ✅ Este finde · VUELTA (dom. 8, 6:00): L5 → L6 Andén 1 → L11
+- ✅ Este finde · ningún tramo de L6 pasa por el tramo cortado
 
 ## Municipios solicitados
 
@@ -230,6 +233,11 @@ No incluidas por no poder verificarse en esta sesión: Plaza de España ↔ Novi
 - **VUELTA · Si la L6 está cortada (7–9 y 21–22 nov 2026)** (Fechas del corte parcial de la L6): ≈ 57 min, 386 m a pie, 2 transbordo(s) — inicio → pie → entrada → metro 5 (Núñez de Balboa→Oporto) → transbordo → metro 6 (Oporto→Plaza Elíptica) → transbordo → metro 11 (Plaza Elíptica→Carabanchel Alto) → fin
 - **VUELTA · De madrugada, sin metro (1:30–6:00)** (Noches de viernes y sábado (frecuencias del GTFS de EMT)): ≈ 72 min, 597 m a pie, 1 transbordo(s) — inicio → pie → bus N2 (Príncipe De Vergara - Diego De León→Cibeles) → pie → bus N17 (Cibeles→Metro Carabanchel Alto) → pie → fin
 - **VUELTA · Domingo a jueves de 23:00 a 1:30 (L6 cerrada)** (Domingo a jueves, 23:00–1:30): ≈ 61 min, 638 m a pie, 1 transbordo(s) — inicio → pie → bus SC2 (Diego De León→Legazpi) → cambio → bus SC2 (Legazpi→Plaza Elíptica) → pie → entrada → metro 11 (Plaza Elíptica→Carabanchel Alto) → fin
+
+## Sección «Este finde» (7–8 nov 2026, L6 cortada)
+
+- **Sábado 7 de noviembre · salida ≈ 21:00**: ≈ 53 min, 386 m a pie, 2 transbordos — inicio → metro 11 (Carabanchel Alto→Plaza Elíptica) → transbordo → metro 6 (Plaza Elíptica→Oporto) → transbordo → metro 5 (Oporto→Núñez de Balboa) → salida → pie → fin
+- **Domingo 8 de noviembre · salida ≈ 6:00**: ≈ 57 min, 386 m a pie, 2 transbordos — inicio → pie → entrada → metro 5 (Núñez de Balboa→Oporto) → transbordo → metro 6 (Oporto→Plaza Elíptica) → transbordo → metro 11 (Plaza Elíptica→Carabanchel Alto) → fin
 
 Supuestos: a pie 4.5 km/h por la red peatonal OSM; espera = mitad del intervalo de paso (frequencies.txt) en la franja del escenario; pasillos = distancia andén–acceso × 1.3 + 1.0 min.
 
