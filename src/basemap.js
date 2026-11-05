@@ -1,4 +1,4 @@
-// Estilo del mapa base propio (public/tiles/base.pmtiles, OSM vía Overture). Fondo claro y discreto para
+// Estilo del mapa base propio (public/tiles/base.pmtiles.png = PMTiles, OSM vía Overture). Fondo claro y discreto para
 // que la cartografía de transporte sea la protagonista.
 export const C = {
   bg: "#f4f2ee", water: "#bcd6e8", waterLine: "#a9c9df", park: "#dcead2", protected: "#e7efdd",

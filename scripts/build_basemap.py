@@ -117,12 +117,14 @@ layers["buildings"] = dump("buildings", b, [])
 
 tip = os.environ.get("TIPPECANOE") or shutil.which("tippecanoe")
 assert tip, "tippecanoe no encontrado: defina TIPPECANOE=/ruta/tippecanoe (ver README)"
-out = ROOT / "public" / "tiles" / "base.pmtiles"
-out.parent.mkdir(parents=True, exist_ok=True)
+out = BUILD / "base.pmtiles"   # tippecanoe elige el formato por la extensión .pmtiles
+pub = ROOT / "public" / "tiles" / "base.pmtiles.png"  # se publica como .png: GitHub Pages no lo comprime (ver src/common.js)
+pub.parent.mkdir(parents=True, exist_ok=True)
 cmd = [tip, "-o", str(out), "--force", "-Z5", "-z16", "--no-feature-limit", "--no-tile-size-limit",
        "--simplification=4", "--detect-shared-borders", "-n", "Mapa base Madrid (OSM/Overture)",
        "-A", "© OpenStreetMap contributors (ODbL) vía Overture Maps Foundation", "-q"]
 for k, p in layers.items():
     cmd += ["-L", f"{k}:{p}"]
 subprocess.run(cmd, check=True)
-print("PMTiles:", out, round(out.stat().st_size / 1e6, 1), "MB")
+shutil.move(out, pub)
+print("PMTiles:", pub, round(pub.stat().st_size / 1e6, 1), "MB")

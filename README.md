@@ -40,7 +40,7 @@ Es un itinerario orientativo (horarios programados del GTFS), no información en
 index.html, ruta.html        páginas (Vite, multipágina)
 src/                         interfaz: common.js (mapa y capas de transporte), mapa1.js, mapa2.js, basemap.js (estilo), style.css
 public/data/                 datos procesados que carga la web (GeoJSON / JSON)
-public/tiles/base.pmtiles    mapa base vectorial propio (calles, agua, parques…), sin servidores externos
+public/tiles/base.pmtiles.png  mapa base vectorial propio (PMTiles con extensión .png para GitHub Pages)
 public/fonts/                tipografías de rotulación del mapa (Noto Sans, OFL)
 scripts/                     pipeline de datos (Python) y utilidades (Node)
 data/                        entradas manuales: avisos.json, fuentes.json, correspondencias_verificadas.json

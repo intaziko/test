@@ -1,17 +1,43 @@
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { Protocol } from "pmtiles";
+import { FetchSource, PMTiles, Protocol } from "pmtiles";
 import "@fontsource-variable/inter";
 import "./style.css";
 import { basemapLabelLayers, basemapLayers } from "./basemap.js";
-
-const protocol = new Protocol();
-maplibregl.addProtocol("pmtiles", protocol.tile);
 
 export const PARAMS = new URLSearchParams(location.search);
 export const PRINT = PARAMS.get("print");               // "a3" → modo exportación (scripts/export.mjs)
 const ROOT = new URL(import.meta.env.BASE_URL, location.href).href;
 export const url = (p) => ROOT + p;
+
+// Mapa base PMTiles: se lee por rangos de bytes. El CDN de GitHub Pages comprime al vuelo los binarios
+// (application/octet-stream) y rompe esos rangos, así que el archivo se publica con extensión .png (tipo que no
+// comprime). Si aun así un servidor no sirve bien los rangos, se descarga el archivo completo una sola vez.
+class RangeOrFullSource {
+  constructor(u) { this.url = u; this.range = new FetchSource(u); this.full = null; }
+  getKey() { return this.url; }
+  async getBytes(offset, length, signal, etag) {
+    if (!this.full) {
+      try {
+        const r = await this.range.getBytes(offset, length, signal, etag);
+        const n = r.data.byteLength;
+        const magicOk = offset !== 0 || new DataView(r.data).getUint16(0, true) === 0x4d50; // «PM»
+        if (magicOk && (n === length || (offset === 0 && n >= 127))) return r;
+        throw new Error(`rango no válido (${n} de ${length} bytes)`);
+      } catch (e) {
+        if (signal?.aborted || e.name === "AbortError") throw e;
+        console.warn("Mapa base: el servidor no sirve bien peticiones por rangos; se descarga completo.", e.message);
+        this.full = fetch(this.url).then((r) => { if (!r.ok) throw new Error(`mapa base: ${r.status}`); return r.arrayBuffer(); });
+      }
+    }
+    const buf = await this.full;
+    return { data: buf.slice(offset, offset + length) };
+  }
+}
+const BASEMAP = url("tiles/base.pmtiles.png");
+const protocol = new Protocol();
+protocol.add(new PMTiles(new RangeOrFullSource(BASEMAP)));
+maplibregl.addProtocol("pmtiles", protocol.tile);
 export const getJSON = (p) => fetch(url(p)).then((r) => { if (!r.ok) throw new Error(`${p}: ${r.status}`); return r.json(); });
 
 export const ATTRIB = [
@@ -35,7 +61,7 @@ export function createMap(container, { bounds, maxBounds = [[-5.2, 39.6], [-2.6,
     style: {
       version: 8,
       glyphs: ROOT + "fonts/{fontstack}/{range}.pbf",
-      sources: { base: { type: "vector", url: "pmtiles://" + url("tiles/base.pmtiles"), attribution: "© OpenStreetMap contributors · Overture Maps" } },
+      sources: { base: { type: "vector", url: "pmtiles://" + BASEMAP, attribution: "© OpenStreetMap contributors · Overture Maps" } },
       layers: basemapLayers(),
     },
     bounds, maxBounds, fitBoundsOptions: { padding: 30 },
@@ -70,7 +96,8 @@ function icon(map, id, size, draw) {
   map.addImage(id, g.getImageData(0, 0, size * r, size * r), { pixelRatio: r });
 }
 function addIcons(map) {
-  const sq = (stroke, lw, s) => (g) => { g.fillStyle = "#fff"; g.strokeStyle = stroke; g.lineWidth = lw; g.beginPath(); g.roundRect(lw / 2 + 1, lw / 2 + 1, s - lw - 2, s - lw - 2, 3); g.fill(); g.stroke(); };
+  const rr = (g, x, y, w, h, r) => { g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath(); };
+  const sq = (stroke, lw, s) => (g) => { g.fillStyle = "#fff"; g.strokeStyle = stroke; g.lineWidth = lw; g.beginPath(); rr(g, lw / 2 + 1, lw / 2 + 1, s - lw - 2, s - lw - 2, 3); g.fill(); g.stroke(); };
   icon(map, "cer", 14, sq("#3b3836", 2.4, 14));
   icon(map, "cer-tr", 18, sq("#000", 3.2, 18));
   icon(map, "closed", 18, (g) => { g.fillStyle = "#c9472b"; g.beginPath(); g.arc(9, 9, 8, 0, 7); g.fill(); g.strokeStyle = "#fff"; g.lineWidth = 2.4; g.beginPath(); g.moveTo(5.5, 5.5); g.lineTo(12.5, 12.5); g.moveTo(12.5, 5.5); g.lineTo(5.5, 12.5); g.stroke(); });
